@@ -2,13 +2,12 @@
 #include <cstdlib>
 #include <cuda_runtime.h>
 #include <iostream>
-const int ND=1000;
+int ND=2000;
 #define size 10
 using namespace std;
 
 
 //int a[ND][ND],b[ND][ND],c[ND][ND];
-
 
 __global__ void MatMul(int *M,int *N,int *P,int width)
 {
@@ -30,15 +29,17 @@ __global__ void MatMul(int *M,int *N,int *P,int width)
 
 int main(int argc,char * argv[])
 {
-//    int hhh = atoi(argv[1]); //读取执行时参数 并把它转换为int值 这个值代表矩阵大小 size * size 大小的两个矩阵相乘
-//    cout<<hhh<<endl;   // 把size打印出来
-//    cudaSetDevice(0);
+    int hhh = atoi(argv[1]); //读取执行时参数 并把它转换为int值 这个值代表矩阵大小 size * size 大小的两个矩阵相乘
+    cout<<hhh<<endl;   // 把size打印出来
+    ND = hhh;
+    cudaSetDevice(3);
 
-    int (*a)[ND] = new int[ND][ND];
-    int (*b)[ND] = new int[ND][ND];
-    int (*c)[ND] = new int[ND][ND];
-
-//    int *c = new int[ND*ND];
+//    int (*a)[ND] = new int[ND][ND];
+//    int (*b)[ND] = new int[ND][ND];
+//    int (*c)[ND] = new int[ND][ND];
+    int *a = new int[ND*ND];
+    int *b = new int[ND*ND];
+    int *c = new int[ND*ND];
 //    for(int i=0;i<ND;i++){
 //        c[i] = new int[ND];
 //    }
@@ -55,17 +56,21 @@ int main(int argc,char * argv[])
     cudaEventCreate(&stop);
 
     //设备端内存分配
+
     cudaMalloc((void**)&M,ND * ND * sizeof(int));
     cudaMalloc((void**)&N,ND * ND * sizeof(int));
     cudaMalloc((void**)&P,ND * ND * sizeof(int));
+
+
+
 
     //初始化
     for(int i = 0;i < ND;i++)
     {
         for(int j = 0;j < ND;j++)
         {
-            a[i][j] = 1;
-            b[i][j] = 1;
+            a[i*ND + j] = 1;
+            b[i*ND + j] = 1;
         }
     }
 
@@ -87,7 +92,7 @@ int main(int argc,char * argv[])
     printf("cost time : %f ms $$$$ %f s \n ",elapsedTime,elapsedTime/1000);
 //    for(int i=0;i<ND;i++){
 //        for(int j=0;j<ND;j++){
-//            printf("%d ",c[i][j]);
+//            printf("%d ",c[i*ND + j]);
 //        }
 //    }
 
