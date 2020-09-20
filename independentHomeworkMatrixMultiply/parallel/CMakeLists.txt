@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.14)
+project(Hello)
+
+set(CMAKE_CXX_STANDARD 14)
+find_package(CUDA REQUIRED)
+file(GLOB CU serial/main.cpp)
+#cuda_add_executable(main main.cu)
+#cuda_add_executable(main main.cu ParallelMatrixMultiply.cpp ParallelMatrixMultiply.h)
+#cuda_add_executable(test test.cu)
+cuda_add_executable(yhn yhn.cu)

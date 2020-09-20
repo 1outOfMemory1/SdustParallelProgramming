@@ -1,0 +1,2 @@
+# SdustParallelProgramming
+山科并行程序设计课程代码
