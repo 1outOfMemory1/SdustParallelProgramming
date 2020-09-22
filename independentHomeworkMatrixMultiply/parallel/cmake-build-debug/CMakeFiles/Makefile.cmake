@@ -33,12 +33,14 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/EnglishSoftware/clion/CLion 2020.2/bin/cmake/win/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake"
   "D:/EnglishSoftware/clion/CLion 2020.2/bin/cmake/win/share/cmake-3.17/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
+  "CMakeFiles/0.dir/0_generated_0.cu.obj.cmake.pre-gen"
+  "CMakeFiles/0.dir/0_generated_0.cu.obj.depend"
+  "CMakeFiles/1024.dir/1024_generated_1024.cu.obj.cmake.pre-gen"
+  "CMakeFiles/1024.dir/1024_generated_1024.cu.obj.depend"
   "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeSystem.cmake"
-  "CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj.cmake.pre-gen"
-  "CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj.depend"
   )
 
 # The corresponding makefile is:
@@ -49,12 +51,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj.cmake.pre-gen"
-  "CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj.Debug.cmake"
+  "CMakeFiles/0.dir/0_generated_0.cu.obj.cmake.pre-gen"
+  "CMakeFiles/1024.dir/1024_generated_1024.cu.obj.cmake.pre-gen"
+  "CMakeFiles/0.dir/0_generated_0.cu.obj.Debug.cmake"
+  "CMakeFiles/1024.dir/1024_generated_1024.cu.obj.Debug.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/yhn.dir/DependInfo.cmake"
+  "CMakeFiles/0.dir/DependInfo.cmake"
+  "CMakeFiles/1024.dir/DependInfo.cmake"
   )

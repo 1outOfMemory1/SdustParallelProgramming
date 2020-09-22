@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 /teamWork1_KNNclassificationAlgorithm/pythonSerial/venv/*
+=======
+/vendor
+/cmake-build-debug
+>>>>>>> 6ab5c1bbbefb7bd9d2c1b24010eb3deac5835880

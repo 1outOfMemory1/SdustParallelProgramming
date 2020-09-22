@@ -115,17 +115,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named yhn
+# Target rules for targets named 0
 
 # Build rule for target.
-yhn: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) yhn
-.PHONY : yhn
+0 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 0
+.PHONY : 0
 
 # fast build rule for target.
-yhn\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\yhn.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\yhn.dir\build
-.PHONY : yhn\fast
+0\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\0.dir\build
+.PHONY : 0\fast
+
+#=============================================================================
+# Target rules for targets named 1024
+
+# Build rule for target.
+1024: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 1024
+.PHONY : 1024
+
+# fast build rule for target.
+1024\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1024.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1024.dir\build
+.PHONY : 1024\fast
 
 # Help Target
 help:
@@ -135,7 +148,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... yhn
+	@echo ... 0
+	@echo ... 1024
 .PHONY : help
 
 
