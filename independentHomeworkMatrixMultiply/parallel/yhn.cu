@@ -14,7 +14,6 @@ __global__ void MatMul(int *M,int *N,int *P,int width)
 
     int Col = blockIdx.x*blockDim.x + threadIdx.x; // cloumn
     int Row = blockIdx.y*blockDim.y + threadIdx.y; // row
-
     float elem1 = 0.0,elem2 = 0.0,value = 0.0;
     for(int i = 0;i < width;i++)
     {
@@ -62,8 +61,6 @@ int main(int argc,char * argv[])
     cudaMalloc((void**)&P,ND * ND * sizeof(int));
 
 
-
-
     //初始化
     for(int i = 0;i < ND;i++)
     {
@@ -73,7 +70,6 @@ int main(int argc,char * argv[])
             b[i*ND + j] = 1;
         }
     }
-
     int Size = ND * ND;
     //数据拷贝，主机到设备
     cudaMemcpy(M,a,Size * sizeof(int),cudaMemcpyHostToDevice);

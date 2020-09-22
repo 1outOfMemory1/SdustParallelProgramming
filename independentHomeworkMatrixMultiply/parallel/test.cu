@@ -21,6 +21,8 @@ __global__ void testThread2(int *c, const int *a, const int *b)
     c[i] = b[i] - a[i];
 }
 
+
+
 //thread 3D
 __global__ void testThread3(int *c, const int *a, const int *b)
 {

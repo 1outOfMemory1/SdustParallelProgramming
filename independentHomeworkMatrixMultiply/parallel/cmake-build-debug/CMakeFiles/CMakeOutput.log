@@ -50,48 +50,48 @@ The CXX compiler identification is MSVC, found in "F:/project/github/unfinished/
 Determining if the C compiler works passed with the following output:
 Change Dir: F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_cbab3\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_cbab3.dir\build.make /nologo -L                  CMakeFiles\cmTC_cbab3.dir\build
-Building C object CMakeFiles/cmTC_cbab3.dir/testCCompiler.c.obj
-	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nmBE6B.tmp
+Run Build Command(s):nmake /nologo cmTC_e9eba\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_e9eba.dir\build.make /nologo -L                  CMakeFiles\cmTC_e9eba.dir\build
+Building C object CMakeFiles/cmTC_e9eba.dir/testCCompiler.c.obj
+	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nm6516.tmp
 testCCompiler.c
-Linking C executable cmTC_cbab3.exe
-	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_cbab3.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_cbab3.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nmBECA.tmp
+Linking C executable cmTC_e9eba.exe
+	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e9eba.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_e9eba.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nm668E.tmp
 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_41b72\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_41b72.dir\build.make /nologo -L                  CMakeFiles\cmTC_41b72.dir\build
-Building C object CMakeFiles/cmTC_41b72.dir/CMakeCCompilerABI.c.obj
-	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nmC05F.tmp
+Run Build Command(s):nmake /nologo cmTC_f72fc\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_f72fc.dir\build.make /nologo -L                  CMakeFiles\cmTC_f72fc.dir\build
+Building C object CMakeFiles/cmTC_f72fc.dir/CMakeCCompilerABI.c.obj
+	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nm6872.tmp
 CMakeCCompilerABI.c
-Linking C executable cmTC_41b72.exe
-	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_41b72.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_41b72.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nmC0AE.tmp
+Linking C executable cmTC_f72fc.exe
+	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_f72fc.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_f72fc.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nm68FF.tmp
 
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_cdc67\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_cdc67.dir\build.make /nologo -L                  CMakeFiles\cmTC_cdc67.dir\build
-Building CXX object CMakeFiles/cmTC_cdc67.dir/testCXXCompiler.cxx.obj
-	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nmC234.tmp
+Run Build Command(s):nmake /nologo cmTC_b8992\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_b8992.dir\build.make /nologo -L                  CMakeFiles\cmTC_b8992.dir\build
+Building CXX object CMakeFiles/cmTC_b8992.dir/testCXXCompiler.cxx.obj
+	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nm6AC3.tmp
 testCXXCompiler.cxx
-Linking CXX executable cmTC_cdc67.exe
-	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_cdc67.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_cdc67.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nmC292.tmp
+Linking CXX executable cmTC_b8992.exe
+	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b8992.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_b8992.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nm6B41.tmp
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_2547d\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_2547d.dir\build.make /nologo -L                  CMakeFiles\cmTC_2547d.dir\build
-Building CXX object CMakeFiles/cmTC_2547d.dir/CMakeCXXCompilerABI.cpp.obj
-	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nmC408.tmp
+Run Build Command(s):nmake /nologo cmTC_a34e9\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_a34e9.dir\build.make /nologo -L                  CMakeFiles\cmTC_a34e9.dir\build
+Building CXX object CMakeFiles/cmTC_a34e9.dir/CMakeCXXCompilerABI.cpp.obj
+	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nm6D15.tmp
 CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_2547d.exe
-	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_2547d.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_2547d.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nmC467.tmp
+Linking CXX executable cmTC_a34e9.exe
+	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_a34e9.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_a34e9.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nm6D93.tmp
 
 
 
