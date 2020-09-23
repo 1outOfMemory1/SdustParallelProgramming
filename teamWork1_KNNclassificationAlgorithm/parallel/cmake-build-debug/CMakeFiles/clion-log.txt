@@ -1,4 +1,4 @@
-"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" F:\project\github\SdustParallelProgramming\teamWork1_KNNclassificationAlgorithm
+"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" F:\project\github\unfinished\SdustParallelProgramming\teamWork1_KNNclassificationAlgorithm\parallel
 -- Configuring done
 -- Generating done
--- Build files have been written to: F:/project/github/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/cmake-build-debug
+-- Build files have been written to: F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug

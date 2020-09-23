@@ -2,103 +2,105 @@
 #include <cstdlib>
 #include <cuda_runtime.h>
 #include <iostream>
-int ND=2000;
-#define size 10
+int arrayScale = 2; //ÉèÖÃ¾ØÕó¹æÄ£ È«¾Ö±äÁ¿
+int arrayScale_square = arrayScale * arrayScale;  //Ëã³ö¾ØÕó¹æÄ£µÄÆ½·½ Ö®ºóµÄ³ÌĞò»áÓÃµ½
+#define size 1  //Õâ¸öÖµÊÇ¸ü¸ÄÒ»¸ö¿éÖĞÓĞ¶àÉÙ¸öÏß³ÌµÄ  ÎÒÉèÖÃµÄÊÇ¶şÎ¬µÄthreadÅÅ²¼ 10 *10 Îª100 < 1024 ÒòÎªÀÏÊ¦¸øµÄÊı¾İ¶¼ÊÇ10µÄ±¶Êı ËùÒÔÉèÖÃ10ºÜºÏÊÊ
 using namespace std;
 
 
-//int a[ND][ND],b[ND][ND],c[ND][ND];
-
-__global__ void MatMul(int *M,int *N,int *P,int width)
+__global__ void MatMul(int* M, int* N, int* P, int scale)  //ÕæÕıµÄºËĞÄº¯Êı ´«ÈëÏÔ´æÖĞµÄA BÊı×é resultÊı×é ºÍ Êı×é¹æÄ£
 {
-
-    int Col = blockIdx.x*blockDim.x + threadIdx.x; // cloumn
-    int Row = blockIdx.y*blockDim.y + threadIdx.y; // row
-    float elem1 = 0.0,elem2 = 0.0,value = 0.0;
-    for(int i = 0;i < width;i++)
+    //ÆäÊµ²¢ĞĞ³ÌĞòÉè¼ÆµÄÄ¿µÄ¾ÍÊÇÍ¬Ê±¼ÆËã Èç¹ûÄãµÄÊı×é¹æÄ£ÊÇ10 * 10  ÄÇÃ´ĞèÒªÓÃµ½100¸öÏß³Ì¼ÆËãresult¾ØÕóµÄÃ¿Ò»¸öÖµ
+    //ËùÒÔ²¢ĞĞ³ÌĞòµÄºËĞÄÊÇ¶¨Î»µ½Õâ100¸öÏß³Ì (¶àÎ¬½µÎ¬µ½¶şÎ¬»òÕßÒ»Î¬) È»ºó°Ñ¼ÆËãºóµÄĞÅÏ¢´æÈëµ½ÏÔ´æÖĞ
+    int Col = blockIdx.x * blockDim.x + threadIdx.x; // cloumn ÕâÀïÊÇ½«4Î¬ ½µÎ¬µ½ 2Î¬  È¥³ıblockµÄ±ß¿ò¾Í×öµ½ÁË ÕâÒ»ĞĞÊÇ¶¨Î»µ½ÄÇÒ»ÁĞ
+    int Row = blockIdx.y * blockDim.y + threadIdx.y; // row   ÕâÒ»ĞĞÊÇ¶¨Î»µ½ÄÄÒ»¸öĞĞ
+    float elem1 = 0.0, elem2 = 0.0, value = 0.0;
+    for (int i = 0; i < scale; i++)
     {
-        elem1 = M[Col * width + i];//å–MçŸ©é˜µçš„ä¸€è¡Œ
-        elem2 = N[i * width + Row];//å–NçŸ©é˜µçš„ä¸€åˆ—
-        value += elem1 * elem2;//æ±‚å’Œ
+        elem1 = M[Row * scale + i];//È¡M¾ØÕóµÄÒ»ĞĞ
+        elem2 = N[i * scale + Col];//È¡N¾ØÕóµÄÒ»ÁĞ
+        value += elem1 * elem2;//ÇóºÍ
     }
-
-    P[Col * width + Row] = value;
+    P[ Row * scale + Col] = value;
 }
 
 
 int main(int argc,char * argv[])
 {
-    int hhh = atoi(argv[1]); //è¯»å–æ‰§è¡Œæ—¶å‚æ•° å¹¶æŠŠå®ƒè½¬æ¢ä¸ºintå€¼ è¿™ä¸ªå€¼ä»£è¡¨çŸ©é˜µå¤§å° size * size å¤§å°çš„ä¸¤ä¸ªçŸ©é˜µç›¸ä¹˜
-    cout<<hhh<<endl;   // æŠŠsizeæ‰“å°å‡ºæ¥
-    ND = hhh;
-    cudaSetDevice(3);
 
-//    int (*a)[ND] = new int[ND][ND];
-//    int (*b)[ND] = new int[ND][ND];
-//    int (*c)[ND] = new int[ND][ND];
-    int *a = new int[ND*ND];
-    int *b = new int[ND*ND];
-    int *c = new int[ND*ND];
-//    for(int i=0;i<ND;i++){
-//        c[i] = new int[ND];
-//    }
+    if(argc > 1){
+        int hhh = atoi(argv[1]); //¶ÁÈ¡Ö´ĞĞÊ±²ÎÊı ²¢°ÑËü×ª»»ÎªintÖµ Õâ¸öÖµ´ú±í¾ØÕó´óĞ¡ size * size ´óĞ¡µÄÁ½¸ö¾ØÕóÏà³Ë
+        arrayScale = hhh;
+        arrayScale_square = arrayScale * arrayScale;
+        cout<<"ÒÑÊäÈë²ÎÊı£¬ ¾ØÕó¹æÄ£Îª"<<arrayScale<<" * "<<arrayScale<<endl;
+    }else{
+        cout<<"Î´ÊäÈë²ÎÊı£¡£¡£¡ Ä¬ÈÏ¾ØÕó¹æÄ£Îª"<<arrayScale<<" * "<<arrayScale<<endl;
+    }
 
-    int *M,*N,*P;
+    int *intArrayA = new int[arrayScale_square];
+    int *intArrayB = new int[arrayScale_square];
+    int *intArrayResult = new int[arrayScale_square];
 
-    int width = ND;
-    dim3 gridSize(ND/size,ND/size);
-    dim3 blockSize(size,size);
+    int *gpuMappingIntArrayA,*gpuMappingIntArrayB,*gpuMappingIntArrayResult;
+
+    dim3 blocksPerGrid(arrayScale/size,arrayScale/size);
+    dim3 threadsPerBock(size,size);
 
     cudaEvent_t start,stop;
     float elapsedTime = 0;
     cudaEventCreate(&start);
     cudaEventCreate(&stop);
 
-    //è®¾å¤‡ç«¯å†…å­˜åˆ†é…
+    //Éè±¸¶ËÄÚ´æ·ÖÅä
 
-    cudaMalloc((void**)&M,ND * ND * sizeof(int));
-    cudaMalloc((void**)&N,ND * ND * sizeof(int));
-    cudaMalloc((void**)&P,ND * ND * sizeof(int));
+    cudaMalloc((void**)&gpuMappingIntArrayA,arrayScale_square * sizeof(int));
+    cudaMalloc((void**)&gpuMappingIntArrayB,arrayScale_square * sizeof(int));
+    cudaMalloc((void**)&gpuMappingIntArrayResult,arrayScale_square * sizeof(int));
 
 
-    //åˆå§‹åŒ–
-    for(int i = 0;i < ND;i++)
+    //³õÊ¼»¯
+    for(int i = 0;i < arrayScale;i++)
     {
-        for(int j = 0;j < ND;j++)
+        for(int j = 0;j < arrayScale;j++)
         {
-            a[i*ND + j] = 1;
-            b[i*ND + j] = 1;
+            intArrayA[i*arrayScale + j] = 1;
+            intArrayB[i*arrayScale + j] = 1;
         }
     }
-    int Size = ND * ND;
-    //æ•°æ®æ‹·è´ï¼Œä¸»æœºåˆ°è®¾å¤‡
-    cudaMemcpy(M,a,Size * sizeof(int),cudaMemcpyHostToDevice);
-    cudaMemcpy(N,b,Size * sizeof(int),cudaMemcpyHostToDevice);
+//    intarraya[2] = 10;
+//    intarraya[3] = 3;
+//    intarrayb[3] = 1;
+
+
+    //Êı¾İ¿½±´£¬Ö÷»úµ½Éè±¸
+    cudaMemcpy(gpuMappingIntArrayA,intArrayA,arrayScale_square * sizeof(int),cudaMemcpyHostToDevice);
+    cudaMemcpy(gpuMappingIntArrayB,intArrayB,arrayScale_square * sizeof(int),cudaMemcpyHostToDevice);
 
     cudaEventRecord(start,0);
-    MatMul<<<gridSize,blockSize>>>(M,N,P,width);//è°ƒç”¨æ ¸å‡½æ•°
+    MatMul<<<blocksPerGrid,threadsPerBock>>>(gpuMappingIntArrayA,gpuMappingIntArrayB,gpuMappingIntArrayResult,arrayScale);//µ÷ÓÃºËº¯Êı
     cudaThreadSynchronize();
     cudaEventRecord(stop,0);
     cudaEventSynchronize(stop);
     cudaEventElapsedTime(&elapsedTime,start,stop);
-    cudaMemcpy(c,P,Size * sizeof(int),cudaMemcpyDeviceToHost);
+    cudaMemcpy(intArrayResult,gpuMappingIntArrayResult,arrayScale_square * sizeof(int),cudaMemcpyDeviceToHost);
 
 
 
-    printf("cost time : %f ms $$$$ %f s \n ",elapsedTime,elapsedTime/1000);
-//    for(int i=0;i<ND;i++){
-//        for(int j=0;j<ND;j++){
-//            printf("%d ",c[i*ND + j]);
-//        }
-//    }
+    printf("cost time : %f ms $$$$ %f s \n",elapsedTime,elapsedTime/1000);
+    for(int i=0;i<arrayScale;i++){
+        for(int j=0;j<arrayScale;j++){
+            printf("%d ",intArrayResult[i*arrayScale + j]);
+        }
+        printf("\n");
+    }
 
 
-    //é‡Šæ”¾è®¾å¤‡å†…å­˜
-    cudaFree(M);
-    cudaFree(N);
-    cudaFree(P);
-    free(a);
-    free(b);
-    free(c);
+    //ÊÍ·ÅÉè±¸ÄÚ´æ
+    cudaFree(gpuMappingIntArrayA);
+    cudaFree(gpuMappingIntArrayB);
+    cudaFree(gpuMappingIntArrayResult);
+    free(intArrayA);
+    free(intArrayB);
+    free(intArrayResult);
     return 0;
 }

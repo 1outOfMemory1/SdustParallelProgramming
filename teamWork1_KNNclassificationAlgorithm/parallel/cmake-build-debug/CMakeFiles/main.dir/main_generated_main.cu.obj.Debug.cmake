@@ -58,18 +58,18 @@ endif()
 
 # Set these up as variables to make reading the generated file easier
 set(CMAKE_COMMAND "D:/EnglishSoftware/clion/CLion 2020.2/bin/cmake/win/bin/cmake.exe") # path
-set(source_file "F:/project/github/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/main.cu") # path
-set(NVCC_generated_dependency_file "F:/project/github/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/cmake-build-debug/CMakeFiles/main.dir//main_generated_main.cu.obj.NVCC-depend") # path
-set(cmake_dependency_file "F:/project/github/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/cmake-build-debug/CMakeFiles/main.dir//main_generated_main.cu.obj.depend") # path
+set(source_file "F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/main.cu") # path
+set(NVCC_generated_dependency_file "F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/main.dir//main_generated_main.cu.obj.NVCC-depend") # path
+set(cmake_dependency_file "F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/main.dir//main_generated_main.cu.obj.depend") # path
 set(CUDA_make2cmake "D:/EnglishSoftware/clion/CLion 2020.2/bin/cmake/win/share/cmake-3.17/Modules/FindCUDA/make2cmake.cmake") # path
 set(CUDA_parse_cubin "D:/EnglishSoftware/clion/CLion 2020.2/bin/cmake/win/share/cmake-3.17/Modules/FindCUDA/parse_cubin.cmake") # path
 set(build_cubin OFF) # bool
 set(CUDA_HOST_COMPILER "D:/EnglishSoftware/visualStudio2019/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/cl.exe") # path
 # We won't actually use these variables for now, but we need to set this, in
 # order to force this file to be run again if it changes.
-set(generated_file_path "F:/project/github/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/cmake-build-debug/CMakeFiles/main.dir//.") # path
-set(generated_file_internal "F:/project/github/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/cmake-build-debug/CMakeFiles/main.dir//./main_generated_main.cu.obj") # path
-set(generated_cubin_file_internal "F:/project/github/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/cmake-build-debug/CMakeFiles/main.dir//./main_generated_main.cu.obj.cubin.txt") # path
+set(generated_file_path "F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/main.dir//.") # path
+set(generated_file_internal "F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/main.dir//./main_generated_main.cu.obj") # path
+set(generated_cubin_file_internal "F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/main.dir//./main_generated_main.cu.obj.cubin.txt") # path
 
 set(CUDA_NVCC_EXECUTABLE "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/bin/nvcc.exe") # path
 set(CUDA_NVCC_FLAGS  ;; ) # list
@@ -105,11 +105,11 @@ endif()
 
 # This is the list of host compilation flags.  It C or CXX should already have
 # been chosen by FindCUDA.cmake.
-set(CMAKE_HOST_FLAGS /DWIN32 /D_WINDOWS /GR /EHsc )
-set(CMAKE_HOST_FLAGS_DEBUG /Zi /Ob0 /Od /RTC1)
-set(CMAKE_HOST_FLAGS_MINSIZEREL /O1 /Ob1 /DNDEBUG)
-set(CMAKE_HOST_FLAGS_RELEASE /O2 /Ob2 /DNDEBUG)
-set(CMAKE_HOST_FLAGS_RELWITHDEBINFO /Zi /O2 /Ob1 /DNDEBUG)
+set(CMAKE_HOST_FLAGS /DWIN32 /D_WINDOWS /W3 /GR /EHsc )
+set(CMAKE_HOST_FLAGS_DEBUG /MDd /Zi /Ob0 /Od /RTC1)
+set(CMAKE_HOST_FLAGS_MINSIZEREL /MD /O1 /Ob1 /DNDEBUG)
+set(CMAKE_HOST_FLAGS_RELEASE /MD /O2 /Ob2 /DNDEBUG)
+set(CMAKE_HOST_FLAGS_RELWITHDEBINFO /MD /Zi /O2 /Ob1 /DNDEBUG)
 
 # Take the compiler flags and package them up to be sent to the compiler via -Xcompiler
 set(nvcc_host_compiler_flags "")

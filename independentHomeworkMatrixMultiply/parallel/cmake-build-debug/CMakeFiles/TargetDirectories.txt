@@ -1,4 +1,4 @@
-F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir
-F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir
+F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/knn.dir
+F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/image.dir
 F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/edit_cache.dir
 F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/rebuild_cache.dir

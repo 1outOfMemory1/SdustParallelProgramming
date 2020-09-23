@@ -30,244 +30,127 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="951e8950-ea68-4099-917c-f30cc1431f03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../demoProgram_ArrayAdd/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoProgram_ArrayAdd/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoProgram_ArrayAdd/.idea/demo程序数组相加.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoProgram_ArrayAdd/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoProgram_ArrayAdd/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoProgram_ArrayAdd/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoProgram_ArrayAdd/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/.idea/independentHomeworkMatrixMultiply.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CUDA.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/independentHomeworkMatrixMultiply.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/independentHomeworkMatrixMultiply.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/independentHomeworkMatrixMultiply.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/independentHomeworkMatrixMultiply.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/independentHomeworkMatrixMultiply.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/independentHomeworkMatrixMultiply.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/embed.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/intermediate.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.Debug.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.cmake.pre-gen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.depend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/manifest.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/manifest.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/objects1.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/main.dir/vc140.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/Hello.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/independentHomeworkMatrixMultiply.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/main.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/main.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/main.ilk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/main.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/cmake-build-debug/main.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../independentHomeworkMatrixMultiply/main.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/teamWork1_KNNclassificationAlgorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/embed.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/intermediate.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.Debug.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.cmake.pre-gen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.depend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/manifest.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/manifest.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/objects1.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/vc140.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/teamWork1_KNNclassificationAlgorithm.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/teamWork1_KNNclassificationAlgorithm.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/teamWork1_KNNclassificationAlgorithm.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/teamWork1_KNNclassificationAlgorithm.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/teamWork1_KNNclassificationAlgorithm.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/teamWork1_KNNclassificationAlgorithm.dir/objects1.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/teamWork1_KNNclassificationAlgorithm.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Hello.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/main.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/main.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/main.ilk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/main.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/main.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/teamWork1_KNNclassificationAlgorithm.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/.idea/teamWork2_RGBToGreyscale.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CMakeCUDACompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CUDA.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/a.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/a.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cpp1.ii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cpp1.ii.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cpp4.ii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cpp4.ii.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cudafe1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cudafe1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cudafe1.gpu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.cudafe1.stub.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.fatbin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.fatbin.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.module_id" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.obj.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.ptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/CMakeCUDACompilerId.sm_52.cubin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/a.exe.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/a_dlink.fatbin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/a_dlink.fatbin.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/a_dlink.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/a_dlink.obj.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/a_dlink.reg.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/a_dlink.sm_52.cubin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCUDA/tmp/a_dlink.sm_52.cubin.optf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/embed.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/intermediate.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.Debug.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.cmake.pre-gen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.depend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/manifest.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/manifest.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/objects1.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/main.dir/vc140.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/teamWork2_RGBToGreyscale.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/teamWork2_RGBToGreyscale.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/teamWork2_RGBToGreyscale.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/teamWork2_RGBToGreyscale.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/teamWork2_RGBToGreyscale.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/CMakeFiles/teamWork2_RGBToGreyscale.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/Hello.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/main.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/main.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/main.ilk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/main.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/main.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../teamWork2_RGBToGreyscale/cmake-build-debug/teamWork2_RGBToGreyscale.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../资料/GPU程序设计/CUDA C 编程快速入门.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../资料/GPU程序设计/CUDA C初学者编程（例子）.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../资料/GPU程序设计/CUDA C编程序指南.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../资料/GPU程序设计/[GPU]+CUDA并行程序设计 GPU编程指南.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../资料/GPU程序设计/common.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../资料/GPU程序设计/基于GPU的并行编程模型CUDA.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../资料/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../资料/《并行程序设计实践》课程说明.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../资料/系统使用手册.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GPU程序设计/CUDA C 编程快速入门.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GPU程序设计/CUDA C初学者编程（例子）.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GPU程序设计/CUDA C编程序指南.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GPU程序设计/[GPU]+CUDA并行程序设计 GPU编程指南.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GPU程序设计/common.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GPU程序设计/基于GPU的并行编程模型CUDA.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../《并行程序设计实践》课程说明.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../系统使用手册.docx" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/X_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/X_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/Y_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/Y_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/knn.dir/knn_generated_knn.cu.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/image.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/knn.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/CPU串行和GPU并行表示.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/CPU串行和GPU并行表示.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/0_modify.cu" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/0_modify.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/0.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/0.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/0.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/0.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/0.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/1024.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/1024.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/1024.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/1024.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/1024.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/0_generated_0.cu.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/0_generated_0.cu.obj.Debug.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/0_generated_0.cu.obj.cmake.pre-gen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/0_generated_0.cu.obj.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/embed.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/intermediate.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/manifest.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/manifest.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/1024_generated_1024.cu.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/1024_generated_1024.cu.obj.Debug.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/1024_generated_1024.cu.obj.cmake.pre-gen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/1024_generated_1024.cu.obj.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/embed.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/intermediate.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/manifest.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/manifest.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/embed.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/intermediate.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/manifest.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/manifest.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj.Debug.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj.cmake.pre-gen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/Hello.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/lasdfja.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/lasdfja.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/lasdfja.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/lasdfja.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/lasdfja.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/main.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/main.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/main.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/main.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/test.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/test.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/test.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/test.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/test.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/yhn.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/yhn.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/yhn.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/yhn.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/yhn.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/main.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/yhn.cu" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/yhn.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../资料/GPU程序设计/基于GPU的并行编程模型CUDA.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../资料/GPU程序设计/基于GPU的并行编程模型CUDA.pptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +162,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1hVQg1ApNTjubNnJRlAt1YqD48l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -298,9 +181,9 @@
     <property name="cf.first.check.clang-format" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Hello" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Hello" RUN_TARGET_NAME="main">
@@ -323,6 +206,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600093886510</updated>
       <workItem from="1600093887736" duration="123000" />
+      <workItem from="1600876259867" duration="5360000" />
     </task>
     <servers />
   </component>
@@ -339,6 +223,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -348,21 +233,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600093965538" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600094010225">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600881586061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600094010225" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600094010225">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600881586061" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600881586061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600094010225" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600094010225">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600881586061" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600881586061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600094010225" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600094010225">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600881586061" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600881586061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600094010225" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600881586061" />
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1600881095623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600881095623" />
+    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1600881095623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600881095623" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1600881095623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600881095623" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1600881095623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600881095623" />
   </component>
 </project>

@@ -57,8 +57,8 @@ CMAKE_BINARY_DIR = F:\project\github\unfinished\SdustParallelProgramming\indepen
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles\0.dir\all
-all: CMakeFiles\1024.dir\all
+all: CMakeFiles\knn.dir\all
+all: CMakeFiles\image.dir\all
 
 .PHONY : all
 
@@ -68,64 +68,64 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles\0.dir\clean
-clean: CMakeFiles\1024.dir\clean
+clean: CMakeFiles\knn.dir\clean
+clean: CMakeFiles\image.dir\clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/0.dir
+# Target rules for target CMakeFiles/knn.dir
 
 # All Build rule for target.
-CMakeFiles\0.dir\all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\0.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\0.dir\depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\0.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\0.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 0"
-.PHONY : CMakeFiles\0.dir\all
+CMakeFiles\knn.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\knn.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\knn.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\knn.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\knn.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target knn"
+.PHONY : CMakeFiles\knn.dir\all
 
 # Build rule for subdir invocation for target.
-CMakeFiles\0.dir\rule: cmake_check_build_system
+CMakeFiles\knn.dir\rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\0.dir\all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\knn.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles\0.dir\rule
+.PHONY : CMakeFiles\knn.dir\rule
 
 # Convenience name for target.
-0 : CMakeFiles\0.dir\rule
+knn: CMakeFiles\knn.dir\rule
 
-.PHONY : 0
+.PHONY : knn
 
 # clean rule for target.
-CMakeFiles\0.dir\clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\0.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\0.dir\clean
-.PHONY : CMakeFiles\0.dir\clean
+CMakeFiles\knn.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\knn.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\knn.dir\clean
+.PHONY : CMakeFiles\knn.dir\clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/1024.dir
+# Target rules for target CMakeFiles/image.dir
 
 # All Build rule for target.
-CMakeFiles\1024.dir\all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1024.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1024.dir\depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1024.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1024.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target 1024"
-.PHONY : CMakeFiles\1024.dir\all
+CMakeFiles\image.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\image.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\image.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target image"
+.PHONY : CMakeFiles\image.dir\all
 
 # Build rule for subdir invocation for target.
-CMakeFiles\1024.dir\rule: cmake_check_build_system
+CMakeFiles\image.dir\rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\1024.dir\all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\image.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles\1024.dir\rule
+.PHONY : CMakeFiles\image.dir\rule
 
 # Convenience name for target.
-1024: CMakeFiles\1024.dir\rule
+image: CMakeFiles\image.dir\rule
 
-.PHONY : 1024
+.PHONY : image
 
 # clean rule for target.
-CMakeFiles\1024.dir\clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1024.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1024.dir\clean
-.PHONY : CMakeFiles\1024.dir\clean
+CMakeFiles\image.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\image.dir\clean
+.PHONY : CMakeFiles\image.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

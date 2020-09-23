@@ -498,7 +498,7 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 CUDA_64_BIT_DEVICE_CODE-ADVANCED:INTERNAL=1
 //List of intermediate files that are part of the cuda dependency
 // scanning.
-CUDA_ADDITIONAL_CLEAN_FILES:INTERNAL=F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir//yhn_generated_yhn.cu.obj.depend;F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/0.dir//0_generated_0.cu.obj.depend;F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/1024.dir//1024_generated_1024.cu.obj.depend
+CUDA_ADDITIONAL_CLEAN_FILES:INTERNAL=F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir//yhn_generated_yhn.cu.obj.depend;F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/main.dir//main_generated_main.cu.obj.depend;F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/knn.dir//knn_generated_knn.cu.obj.depend;F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/image.dir//image_generated_image.cu.obj.depend
 //ADVANCED property for variable: CUDA_ATTACH_VS_BUILD_RULE_TO_CUDA_FILE
 CUDA_ATTACH_VS_BUILD_RULE_TO_CUDA_FILE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CUDA_BUILD_CUBIN

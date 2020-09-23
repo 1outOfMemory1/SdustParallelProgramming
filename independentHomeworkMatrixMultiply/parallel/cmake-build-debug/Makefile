@@ -115,30 +115,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 0
+# Target rules for targets named knn
 
 # Build rule for target.
-0 : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 0
-.PHONY : 0
+knn: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) knn
+.PHONY : knn
 
 # fast build rule for target.
-0\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\0.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\0.dir\build
-.PHONY : 0\fast
+knn\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\knn.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\knn.dir\build
+.PHONY : knn\fast
 
 #=============================================================================
-# Target rules for targets named 1024
+# Target rules for targets named image
 
 # Build rule for target.
-1024: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 1024
-.PHONY : 1024
+image: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) image
+.PHONY : image
 
 # fast build rule for target.
-1024\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1024.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\1024.dir\build
-.PHONY : 1024\fast
+image\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\image.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\image.dir\build
+.PHONY : image\fast
 
 # Help Target
 help:
@@ -148,8 +148,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 0
-	@echo ... 1024
+	@echo ... image
+	@echo ... knn
 .PHONY : help
 
 

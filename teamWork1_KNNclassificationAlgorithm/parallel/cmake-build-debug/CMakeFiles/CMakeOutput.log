@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "F:/project/github/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: D:/EnglishSoftware/visualStudio2019/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/cl.exe 
@@ -45,53 +45,53 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "F:/project/github/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: F:/project/github/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_648eb\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_648eb.dir\build.make /nologo -L                  CMakeFiles\cmTC_648eb.dir\build
-Building C object CMakeFiles/cmTC_648eb.dir/testCCompiler.c.obj
-	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nmCD90.tmp
+Run Build Command(s):nmake /nologo cmTC_7f22b\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_7f22b.dir\build.make /nologo -L                  CMakeFiles\cmTC_7f22b.dir\build
+Building C object CMakeFiles/cmTC_7f22b.dir/testCCompiler.c.obj
+	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nmA959.tmp
 testCCompiler.c
-Linking C executable cmTC_648eb.exe
-	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_648eb.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_648eb.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nmCDE0.tmp
+Linking C executable cmTC_7f22b.exe
+	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7f22b.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_7f22b.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nmAAD1.tmp
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: F:/project/github/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_626c2\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_626c2.dir\build.make /nologo -L                  CMakeFiles\cmTC_626c2.dir\build
-Building C object CMakeFiles/cmTC_626c2.dir/CMakeCCompilerABI.c.obj
-	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nmD0BD.tmp
+Run Build Command(s):nmake /nologo cmTC_3f922\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_3f922.dir\build.make /nologo -L                  CMakeFiles\cmTC_3f922.dir\build
+Building C object CMakeFiles/cmTC_3f922.dir/CMakeCCompilerABI.c.obj
+	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nmAC47.tmp
 CMakeCCompilerABI.c
-Linking C executable cmTC_626c2.exe
-	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_626c2.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_626c2.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nmD11C.tmp
+Linking C executable cmTC_3f922.exe
+	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_3f922.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_3f922.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nmACA6.tmp
 
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: F:/project/github/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_5d1ab\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_5d1ab.dir\build.make /nologo -L                  CMakeFiles\cmTC_5d1ab.dir\build
-Building CXX object CMakeFiles/cmTC_5d1ab.dir/testCXXCompiler.cxx.obj
-	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nmD292.tmp
+Run Build Command(s):nmake /nologo cmTC_ba93d\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_ba93d.dir\build.make /nologo -L                  CMakeFiles\cmTC_ba93d.dir\build
+Building CXX object CMakeFiles/cmTC_ba93d.dir/testCXXCompiler.cxx.obj
+	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nmAE3B.tmp
 testCXXCompiler.cxx
-Linking CXX executable cmTC_5d1ab.exe
-	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_5d1ab.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_5d1ab.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nmD300.tmp
+Linking CXX executable cmTC_ba93d.exe
+	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_ba93d.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_ba93d.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nmAEB9.tmp
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: F:/project/github/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_179cc\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_179cc.dir\build.make /nologo -L                  CMakeFiles\cmTC_179cc.dir\build
-Building CXX object CMakeFiles/cmTC_179cc.dir/CMakeCXXCompilerABI.cpp.obj
-	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nmD4F3.tmp
+Run Build Command(s):nmake /nologo cmTC_dbbb5\fast && 	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\nmake.exe  -f CMakeFiles\cmTC_dbbb5.dir\build.make /nologo -L                  CMakeFiles\cmTC_dbbb5.dir\build
+Building CXX object CMakeFiles/cmTC_dbbb5.dir/CMakeCXXCompilerABI.cpp.obj
+	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @C:\Users\尹浩男\AppData\Local\Temp\nmB01F.tmp
 CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_179cc.exe
-	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_179cc.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_179cc.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nmD552.tmp
+Linking CXX executable cmTC_dbbb5.exe
+	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_dbbb5.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cmTC_dbbb5.dir\objects1.rsp @C:\Users\尹浩男\AppData\Local\Temp\nmB08E.tmp
 
 
 
