@@ -87,7 +87,16 @@
 		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/common.h">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/main.cu">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/yhncsv.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/yhncsv.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/CMakeLists.txt">

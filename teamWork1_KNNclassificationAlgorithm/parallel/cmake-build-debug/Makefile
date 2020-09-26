@@ -127,6 +127,33 @@ main\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\build
 .PHONY : main\fast
 
+yhncsv.obj: yhncsv.cpp.obj
+
+.PHONY : yhncsv.obj
+
+# target to build an object file
+yhncsv.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\yhncsv.cpp.obj
+.PHONY : yhncsv.cpp.obj
+
+yhncsv.i: yhncsv.cpp.i
+
+.PHONY : yhncsv.i
+
+# target to preprocess a source file
+yhncsv.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\yhncsv.cpp.i
+.PHONY : yhncsv.cpp.i
+
+yhncsv.s: yhncsv.cpp.s
+
+.PHONY : yhncsv.s
+
+# target to generate assembly for a file
+yhncsv.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\yhncsv.cpp.s
+.PHONY : yhncsv.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -136,6 +163,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main
+	@echo ... yhncsv.obj
+	@echo ... yhncsv.i
+	@echo ... yhncsv.s
 .PHONY : help
 
 

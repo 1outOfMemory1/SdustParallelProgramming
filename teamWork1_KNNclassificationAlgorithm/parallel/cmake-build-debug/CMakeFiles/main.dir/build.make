@@ -129,6 +129,7 @@ CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\cstdio
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\cstdlib
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\cstring
+CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\ctime
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\cwchar
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\eh.h
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\exception
@@ -142,17 +143,19 @@ CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\iterator
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\limits
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\limits.h
+CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\map
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\memory
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\new
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\ostream
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\sal.h
-CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\sstream
+CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\set
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\stdarg.h
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\stdexcept
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\stdint.h
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\streambuf
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\string
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\system_error
+CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\tuple
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\type_traits
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\typeinfo
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\use_ansi.h
@@ -179,6 +182,7 @@ CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\xstddef
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\xstring
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\xtr1common
+CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\xtree
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\xutility
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\yvals.h
 CMakeFiles\main.dir\main_generated_main.cu.obj: D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include\yvals_core.h
@@ -217,7 +221,9 @@ CMakeFiles\main.dir\main_generated_main.cu.obj: "D:\Windows Kits\10\Include\10.0
 CMakeFiles\main.dir\main_generated_main.cu.obj: "D:\Windows Kits\10\Include\10.0.18362.0\ucrt\sys\types.h"
 CMakeFiles\main.dir\main_generated_main.cu.obj: "D:\Windows Kits\10\Include\10.0.18362.0\ucrt\time.h"
 CMakeFiles\main.dir\main_generated_main.cu.obj: "D:\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h"
+CMakeFiles\main.dir\main_generated_main.cu.obj: ..\common.h
 CMakeFiles\main.dir\main_generated_main.cu.obj: ..\main.cu
+CMakeFiles\main.dir\main_generated_main.cu.obj: ..\yhncsv.h
 CMakeFiles\main.dir\main_generated_main.cu.obj: CMakeFiles\main.dir\main_generated_main.cu.obj.Debug.cmake
 CMakeFiles\main.dir\main_generated_main.cu.obj: ..\main.cu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=F:\project\github\unfinished\SdustParallelProgramming\teamWork1_KNNclassificationAlgorithm\parallel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building NVCC (Device) object CMakeFiles/main.dir/main_generated_main.cu.obj"
@@ -226,18 +232,39 @@ CMakeFiles\main.dir\main_generated_main.cu.obj: ..\main.cu
 	echo >nul && "D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/main.dir//./main_generated_main.cu.obj -D generated_cubin_file:STRING=F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/main.dir//./main_generated_main.cu.obj.cubin.txt -P F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/main.dir//main_generated_main.cu.obj.Debug.cmake
 	cd F:\project\github\unfinished\SdustParallelProgramming\teamWork1_KNNclassificationAlgorithm\parallel\cmake-build-debug
 
+CMakeFiles\main.dir\yhncsv.cpp.obj: CMakeFiles\main.dir\flags.make
+CMakeFiles\main.dir\yhncsv.cpp.obj: ..\yhncsv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\project\github\unfinished\SdustParallelProgramming\teamWork1_KNNclassificationAlgorithm\parallel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/yhncsv.cpp.obj"
+	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\main.dir\yhncsv.cpp.obj /FdCMakeFiles\main.dir\ /FS -c F:\project\github\unfinished\SdustParallelProgramming\teamWork1_KNNclassificationAlgorithm\parallel\yhncsv.cpp
+<<
+
+CMakeFiles\main.dir\yhncsv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/yhncsv.cpp.i"
+	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe > CMakeFiles\main.dir\yhncsv.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\project\github\unfinished\SdustParallelProgramming\teamWork1_KNNclassificationAlgorithm\parallel\yhncsv.cpp
+<<
+
+CMakeFiles\main.dir\yhncsv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/yhncsv.cpp.s"
+	D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\main.dir\yhncsv.cpp.s /c F:\project\github\unfinished\SdustParallelProgramming\teamWork1_KNNclassificationAlgorithm\parallel\yhncsv.cpp
+<<
+
 # Object files for target main
-main_OBJECTS =
+main_OBJECTS = \
+"CMakeFiles\main.dir\yhncsv.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS = \
 "F:\project\github\unfinished\SdustParallelProgramming\teamWork1_KNNclassificationAlgorithm\parallel\cmake-build-debug\CMakeFiles\main.dir\main_generated_main.cu.obj"
 
+main.exe: CMakeFiles\main.dir\yhncsv.cpp.obj
 main.exe: CMakeFiles\main.dir\main_generated_main.cu.obj
 main.exe: CMakeFiles\main.dir\build.make
 main.exe: "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\lib\x64\cudart_static.lib"
 main.exe: CMakeFiles\main.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\project\github\unfinished\SdustParallelProgramming\teamWork1_KNNclassificationAlgorithm\parallel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\project\github\unfinished\SdustParallelProgramming\teamWork1_KNNclassificationAlgorithm\parallel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main.exe"
 	"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\main.dir --rc="D:\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.18362.0\x64\mt.exe" --manifests  -- D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\main.dir\objects1.rsp @<<
  /out:main.exe /implib:main.lib /pdb:F:\project\github\unfinished\SdustParallelProgramming\teamWork1_KNNclassificationAlgorithm\parallel\cmake-build-debug\main.pdb /version:0.0  /machine:x64 /debug /INCREMENTAL /subsystem:console  "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\lib\x64\cudart_static.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
