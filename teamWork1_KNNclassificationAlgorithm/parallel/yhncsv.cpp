@@ -110,8 +110,9 @@ set<string> *Csv::getResultSet() {
 
 
 void Csv::printHeaderVector() {
+    cout<<"ÅÐ¶ÏÒÀ¾ÝÓÐ : ";
     for(string temp : *header){
-        cout<<temp<<" ";
+        cout<<temp<<" , ";
     }
     cout<<endl;
 }

@@ -15,6 +15,8 @@ int trainDataSize = 0; //ÓÃÓÚ¼ÇÂ¼ÑµÁ·¼¯µÄ´óĞ¡
 int testDataSize = 0; //ÓÃÓÚ¼ÇÂ¼²âÊÔ¼¯µÄ´óĞ¡
 int columnSize = 0;  //ÓÃÓÚ¼ÇÂ¼Êı¾İÁĞµÄÊıÁ¿
 int threadSize = 2; //Ò»¸ö¿éÖĞ Ïß³ÌÊıÊÇ32 * 32  =1024 ×î´óÖµ
+int k=10; //  ÓÃÀ´ÉèÖÃÈ¡Ç° k ¸ö¾àÀë×î½üµÄÊı¾İ
+string fileName = "../wineQuality.csv";  //¶¨ÒåÎÄ¼şÃû×Ö
 
 
 
@@ -32,11 +34,7 @@ __global__ void MatrixSubAndSquare(double *trainSet,  //´«Èë¶şÎ¬Êı×é Ã¿Ò»¸ö¶¼¿ÉÒ
     afterSubAndSquareResultArray[row * columnSize + col] = value * value;
 }
 
-int myRandom(int i){
-    int randomNum = rand() % i;
-    return randomNum;
-}
-__global__ void sumMatrix(double *aa,double *distance,int columnSize){
+__global__ void sumMatrix(double *aa,double *distance,int columnSize){ //¼ÆËãÃ¿ĞĞµÄºÍ È»ºó¿ª·½
     int x = blockIdx.x *blockDim.x + threadIdx.x;
     double value = 0;
     for(int i=0;i<columnSize;i++){
@@ -47,167 +45,172 @@ __global__ void sumMatrix(double *aa,double *distance,int columnSize){
 
 
 //Õâ¸öknnº¯ÊıµÄÒ»´ÎÔËĞĞ Ëã³öµÄÊÇ  Ò»ĞĞ²âÊÔÊı¾İ ¾àÀë  ËùÓĞÑµÁ·¼¯ËùÓĞĞĞµÄ¾àÀë È»ºó¸ù¾İ×î½üµÄk¸öÊı¾İÀ´Ô¤²âÖµ
-bool knn(vector<double> * testPiece, int position ,vector<vector<double>> *doubleDataArray,vector<string> * resultVector,int k,set<string>* resultSet){
+bool knn(vector<double> * testPiece, int position ,vector<vector<double>> *doubleDataVector,vector<string> * resultVector,set<string>* resultSet){
+    //1. ³õÊ¼»¯Ò»Ğ©±äÁ¿
+    //1.1 »ù±¾±äÁ¿µÄ³õÊ¼»¯
     double maxWeight = -1;  // ÓÃÀ´´æ´¢×î´óÈ¨ÖØ
     string maxWeightStr = "";  // ÓÃÀ´´æ´¢×î´óÈ¨ÖØµÄ×Ö·û´®  Ò²¾ÍÊÇÔ¤²âÖµ
     bool flag = false;   // ·µ»Ø¸øÖ÷º¯Êı ÓÃÓÚÅĞ¶ÏÔ¤²âÊÇ·ñÕıÈ·
-    double sum = 0;
-
-    // 1.Çó¾àÀë
+    double sum = 0;  //Õâ¸öÊı¾İÓÃÓÚÖ®ºó¼ÆËãÈ¨ÖµµÄÊ±ºòÓÃ Ë­ÀëµÃ×î½ü È¨ÖµÔ½¸ß
+    auto *doubleArrayA = new double[trainDataSize * columnSize]; // ÓÃÓÚÔÚ´«ÊäÊı¾İµÄÊ±ºòÓÃÊı×éÁÙÊ±´æ´¢ÑµÁ·¼¯Êı×é vectorĞĞ²»Í¨ °ÑÖµÖğ¸ö¸³Öµ¸øÊı×é vector²»ĞĞ
+    auto *doubleArrayB = new double[columnSize]; //ÊÇÓÃÀ´´æ´¢²âÊÔ¼¯µÄÒ»ĞĞÊı¾İµÄ ºÍÉÏ·½Ò»Ñù
+    //    double * doubleArrayResult = new double[trainDataSize*columnSize];  //ÓÃÓÚ´æ´¢ÖĞ¼äÊı¾İ ¾­¹ıÏà¼õÆ½·½ºóµÄÊı¾İ µ÷ÊÔÊ±¿ÉÒÔÊä³ö
+    //1.2 Ó³ÉäÖ¸ÕëµÄ´´½¨ ¶¨ÒåÖ¸Õë ÓÃÀ´Ó³ÉäÏÔ´æÖĞµÄÊı¾İ
+    double *cudaDoubleArray; //Õû¸öÊı¾İ¶şÎ¬Êı×é ÏÔ´æÖĞµÄÊı¾İ
+    double *cudaTestArrayPiece; //Ò»ĞĞ²âÊÔ¼¯Êı¾İ ÏÔ´æÖĞµÄÊı¾İ
+    double *cudaAfterSubAndSquareDoubleArrayResult; //ÖĞ¼äÊı¾İ  ÏÔ´æÖĞµÄÊı¾İ
+    //1.3 ºËº¯Êı¹æÄ£µÄ¶¨Òå µÚÒ»¸öÊÇ¾ØÕó¼õ·¨ ºÍ Æ½·½µÄºËº¯Êı
     dim3 firstBlocksPerGrid(trainDataSize/threadSize,columnSize/threadSize);
     dim3 firstThreadsPerBlock(threadSize,threadSize);
-    //ÉêÇë¿Õ¼ä
-    double * doubleArrayResult = new double[trainDataSize*columnSize];
-    double *cudaDoubleArray; //Õû¸öÊı¾İ
-    double *cudaTestArrayPiece; //Ò»ĞĞ²âÊÔ¼¯Êı¾İ
-    double *cudaAfterSubAndSquareDoubleArrayResult;
-    cudaMalloc((void**)&cudaDoubleArray,sizeof(double) * trainDataSize * columnSize ); //ÉêÇëÏÔ´æ¿Õ¼ä
-    cudaMalloc((void**)&cudaTestArrayPiece,sizeof(double) * columnSize);  //ÉêÇëÒ»Î¬Êı×éµÄ¿Õ¼ä
-    cudaMalloc((void**)&cudaAfterSubAndSquareDoubleArrayResult,sizeof(double) * trainDataSize * columnSize ); //ÉêÇëÏÔ´æ¿Õ¼ä
-    double *doubleArrayA = new double[trainDataSize * columnSize]; //°ÑÖµÖğ¸ö¸³Öµ¸øÊı×é vector²»ĞĞ
+    dim3 secondBlocksPerGrid(trainDataSize/threadSize);
+    dim3 secondThreadsPerBlock(threadSize);
+    //2. ÉêÇë¿Õ¼ä
+    cudaMalloc((void**)&cudaDoubleArray,sizeof(double) * trainDataSize * columnSize ); //ÉêÇëÏÔ´æÖĞ¶şÎ¬Êı×éµÄ¿Õ¼ä ÓÃÓÚ´æ·ÅÑµÁ·¼¯Êı¾İ
+    cudaMalloc((void**)&cudaTestArrayPiece,sizeof(double) * columnSize);  //ÉêÇë²âÊÔÊı¾İÒ»Î¬Êı×éµÄ¿Õ¼ä ¶şÎ¬ÑµÁ·¼¯µÄÃ¿Ò»ĞĞ¶¼¼õÈ¥Ò»Î¬²âÊÔ¼¯µÄ¶ÔÓ¦Î»µÄÊı¾İ È»ºóÆ½·½
+    cudaMalloc((void**)&cudaAfterSubAndSquareDoubleArrayResult,sizeof(double) * trainDataSize * columnSize ); //ÉêÇëÖĞ¼ä½á¹ûµÄÏÔ´æ¿Õ¼ä ¹æÄ£ºÍÑµÁ·¼¯Ò»Ñù
+    //3.¿½±´Êı¾İ½øÈëÏÔ´æ
+    //3.1¿½±´ÑµÁ·¼¯ÏÔ´æ
+    //Ä¿Ç°ÊÇÃ»ÓĞÊ²Ã´ºÃ°ì·¨ Ö»ÄÜ°¤¸ö½øĞĞ¸³Öµ Ó¦¸ÃÒ²²»Âı µ«ÊÇ¿Ï¶¨±ÈÄÇĞ©Ö±½Ó½øĞĞÄÚ´æÕû¿é¿½±´µÄÂı
+    //3.1.1 ÏÈ°ÑÊı¾İÅªµ½Ò»¸ödoubleÊı×éÖĞÈ¥
     for(int i=0;i<trainDataSize;i++){
         for(int j =0;j<columnSize;j++){
-            doubleArrayA[i* columnSize +j] = doubleDataArray->at(i).at(j);
+            doubleArrayA[i* columnSize +j] = doubleDataVector->at(i).at(j);
         }
     }
+    //3.1.2 Ö´ĞĞcudaÏÔ´æ¿½±´º¯Êı
     cudaMemcpy(cudaDoubleArray,doubleArrayA,sizeof(double)  * columnSize * trainDataSize ,cudaMemcpyHostToDevice); //½«ÑµÁ·¼¯µÄÊı¾İ¿½Èëµ½ÏÔ´æÖĞ
-    double  *doubleArrayB = new double[columnSize];
-    for(int i=0;i<columnSize;i++){
-        doubleArrayB[i] = testPiece->at(i);
-    }
+    //3.2 ¿½±´²âÊÔ¼¯Êı¾İ Ö»ÓĞÒ»ĞĞ ËùÒÔ¿ÉÒÔÓÃcopyº¯Êı
+    //3.2.1 ´Óvector<double> ×ª»»Îª double Êı×é
+    copy(testPiece->begin(),testPiece->end(),doubleArrayB);  //·Ö±ğ±íÊ¾ Òª¸´ÖÆµÄvectorµÄÍ·, Òª¸´ÖÆµÄvectorµÄÎ² , Ä¿±êÊı×é
+    //3.2.2 Ö´ĞĞcudaÏÔ´æ¿½±´º¯Êı
     cudaMemcpy(cudaTestArrayPiece,doubleArrayB ,sizeof(double) * columnSize ,cudaMemcpyHostToDevice); //½«testµÄÊı¾İ´«Èë
-    //Ö´ĞĞºËº¯Êı
+    //4. Ö´ĞĞµÚÒ»¸öºËº¯Êı
     MatrixSubAndSquare<<<firstBlocksPerGrid,firstThreadsPerBlock>>>(cudaDoubleArray,cudaTestArrayPiece,cudaAfterSubAndSquareDoubleArrayResult,columnSize);
-    //½«½á¹û¿½±´»ØÀ´  ÕâÒ»²½ÊÇÖĞ¼ä²½Öè
+    //½«½á¹û¿½±´»ØÀ´  ÕâÒ»²½ÊÇÖĞ¼ä²½Öè µ÷ÊÔµÄÊ±ºòÅÅ´íÓÃ
 //    cudaMemcpy(doubleArrayResult,cudaAfterSubAndSquareDoubleArrayResult,trainDataSize * columnSize *sizeof(double)  ,cudaMemcpyDeviceToHost); //½«ÑµÁ·¼¯µÄÊı¾İ¿½Èëµ½ÏÔ´æÖĞ)
-//    //´òÓ¡½á¹û
+//    //´òÓ¡¼ÆËãµÄÖĞ¼ä½á¹û ÖĞ¼ä²½Öè µ÷ÊÔÊ¹ÓÃ
 //    for(int i=0;i<trainDataSize;i++){
 //        for(int j=0;j<columnSize;j++){
 //            cout<< doubleArrayResult[i*columnSize + j]<<"    ";
 //        }
 //        cout<<endl;
 //    }
-
-
-
-    //ÊÍ·ÅÏÔ´æ  ×¢ÒâÃ»ÓĞÊÍ·Å sizeÊÇ columnSize * trainDataSize µÄÏÔ´æ ÒòÎªºó±ß»¹ĞèÒªÊ¹ÓÃ
-    cudaFree(cudaDoubleArray);
-    cudaFree(cudaTestArrayPiece);
-//    cudaFree(cudaAfterSubAndSquareDoubleArrayResult);  //×¢ÒâÕâÀï²»½øĞĞÊÍ·ÅÒòÎª»¹µÃËãÏÂÒ»¸öº¯Êı
-    //ÊÍ·ÅÄÚ´æ
+    //5. ÊÍ·ÅÒ»²¿·ÖÏÔ´æºÍÄÚ´æ  ×¢ÒâÃ»ÓĞÊÍ·Å cudaAfterSubAndSquareDoubleArrayResult ÒòÎªÖĞ¼ä½á¹û»¹ĞèÒªÊ¹ÓÃ
+    //5.1 ÊÍ·ÅÏÔ´æ
+    cudaFree(cudaDoubleArray); //ÊÍ·Å ¶şÎ¬Êı×é(ÅÅ²¼ÎªÒ»Î¬) ÑµÁ·¼¯Êı¾İ
+    cudaFree(cudaTestArrayPiece); //ÊÍ·Å Ò»Î¬Êı×é ²âÊÔ¼¯µÄÒ»ĞĞÊı¾İ
+    //5.2 ÊÍ·ÅÄÚ´æ
     free(doubleArrayA);
     free(doubleArrayB);
-
-    double *distanceArray = new double[trainDataSize]; //ÉêÇë¿Õ¼ä ÓÃÀ´´æ·Å¾àÀëÊı×é
-    double *cudaDistanceArray; //ÉêÇë¿Õ¼ä ÓÃÀ´´æ·Å¾àÀëÊı×é
+    //6 ÎªÖ´ĞĞµÚ¶ş¸öºËº¯Êı×¼±¸¿Õ¼ä(ÄÚ´æºÍÏÔ´æ)
+    auto *distanceArray = new double[trainDataSize]; //ÉêÇëÄÚ´æ¿Õ¼ä ÓÃÀ´´æ·Å¾àÀëÊı×é
+    double *cudaDistanceArray; //ÉêÇë¿Õ¼ä Ó³ÉäÏÔ´æ¿Õ¼ä ÓÃÀ´´æ·Å¾àÀëÊı×é
     cudaMalloc((void**)&cudaDistanceArray,sizeof(double) * trainDataSize ); //ÉêÇë´æ·Å¾àÀëÏÔ´æ¿Õ¼ä
-    sumMatrix<<<dim3(trainDataSize/threadSize),dim3(threadSize)>>>(cudaAfterSubAndSquareDoubleArrayResult,cudaDistanceArray,columnSize);
+    //7 Ö´ĞĞµÚ¶ş¸öºËº¯Êı
+    sumMatrix<<<secondBlocksPerGrid,secondThreadsPerBlock>>>(cudaAfterSubAndSquareDoubleArrayResult,cudaDistanceArray,columnSize);
+    //8 ½«×îºóµÄ¾àÀëÊı×é¿½±´»ØÄÚ´æ ÒÔ±ãºó±ßÊ¹ÓÃ
     cudaMemcpy(distanceArray,cudaDistanceArray,sizeof(double) *trainDataSize ,cudaMemcpyDeviceToHost);
-
-//    for(int i=0;i<trainDataSize ;i++ ){
+    //9 ÊÍ·ÅµôËùÓĞÏÔ´æ ÒòÎªÒÔºóÓÃ²»µ½ÁË
+    cudaFree(cudaAfterSubAndSquareDoubleArrayResult);  //ÊÍ·ÅµôÖĞ¼äÊı¾İÊı×é
+    cudaFree(cudaDistanceArray);  //ÊÍ·Åµô¾àÀëÊı×é
+//    for(int i=0;i<trainDataSize ;i++ ){  //´òÓ¡¾àÀëÊı¾İ
 //        cout<<distanceArray[i]<<endl;
 //    }
-
-
-    //¼ÆËãºÃ¾àÀëÖ®ºóĞèÒª°ÑÊı¾İºÍÕæÊµÖµ¶ÔÓ¦ÆğÀ´
-     auto *realityAndDistanceMap = new map<double,string>;
-     for(int i=0;i<trainDataSize;i++){
-         realityAndDistanceMap->insert(pair<double,string>(distanceArray[i] ,resultVector->at(i)));
-     }
-
-
-    // 2.°´ÕÕÉıĞòÅÅĞò
-    // 3.È¡Ç°k¸ö
-
-
-    // 4.Í³¼ÆÈ¨ÖØ ½á¹û¸ü¼Ó×¼È·
-    auto *weightMap = new map<string,double>;
-    auto  setItr = resultSet->begin();
+    //10 ×îºóµÄÊı¾İ´¦Àí
+    //10.1 ³õÊ¼»¯Ò»Ğ©stl ÒÔºó»áÓÃµ½
+    auto *realityAndDistanceMap = new multimap<double,string>;  //¾àÀë×÷Îªkey ÕæÊµÖµÎªvalue ÕâÑù×öµÄºÃ´¦ÊÇ×Ô¶¯ÅÅĞò ĞèÒª²ÉÓÃmultimap ËäÈ»¾àÀëÒ»°ã²»ÄÜÒ»Ñù µ«ÊÇ¾ÍÅÂÇÉÁË
+    auto *weightMap = new map<string,double>;  //È¨ÖØmap   ºó±ßdoubleÊı¾İ¿ÉÒÔ×÷ÎªÒÀ¾İ key²»¿ÉÄÜÖØ¸´ ËùÒÔ·ÅĞÄÓÃ map
+    set<string>::iterator setItr ;  //ÓÃÀ´±éÀúËùÓĞ½á¹û(resultSet) Õâ¸ösetÀï´æ·ÅÁË½á¹û¼¯µÄËùÓĞ¿ÉÄÜ ±ÈÈçÅĞ¶ÏÊÇ·ñµÃ²¡µÄÊı¾İ¼¯ Ö»ÓĞµÃ²¡»òÕß²»µÃ²¡Á½ÖÖ ÒÑ¾­ÊÇÅÅºÃĞòµÄ
+    map<double,string>::iterator mapIter; //ÓÃÓÚ±éÀú
+    //10.2 ¼ÆËãºÃ¾àÀëÖ®ºóĞèÒª°ÑÊı¾İºÍÕæÊµÖµ¶ÔÓ¦ÆğÀ´  Ö®ºóÓÃÓÚÍ³¼ÆÈ¨ÖµµÄÊ±ºò»ØÓÃµ½ realityAndDistanceMap multimap<double,string>
+    for(int i=0;i<trainDataSize;i++){
+        realityAndDistanceMap->insert(pair<double,string>(distanceArray[i] ,resultVector->at(i)));
+    }
+    free(distanceArray); //Ë³ÊÖ°ÑdistanceArrayÊÍ·Åµô ÒÔºó²»»áÔÙÓÃÁË
+    //10.3.³õÊ¼»¯È¨ÖØmap °Ñvalue¶¼Éè³É0  Í³¼ÆÈ¨ÖØµÄÄ¿µÄÊÇ×ÛºÏ¿¼ÂÇk¸ö×î½üµÄµãµÄÓ°Ïì Ô¼½Ó½üµÄµãÈ¨ÖØÔ½¸ß
+    setItr = resultSet->begin();  //resultSet set<string> µÄµü´úÆ÷
     for(;setItr!=resultSet->end();setItr++){
         weightMap->insert(pair<string,double>(*setItr,0));
     }
-    map<double,string>::iterator iter;
-    iter = realityAndDistanceMap->begin();
-    for(int i=0;i<k;i++,iter++){ //¼ÆËãsumÖµ ¼ÆËã³öÀ´sumÖµ
-        sum  += iter->first;
+    //10.4 ¼ÆËãÇ°k¸ö×î½üµÄµãµÄ×Ü¾àÀësum ÓÃÓÚËãÈ¨ÖØ
+    mapIter = realityAndDistanceMap->begin();
+    for(int i=0;i<k;i++,mapIter++){ //¼ÆËãsumÖµ ¼ÆËã³öÀ´sumÖµ
+        sum  += mapIter->first;
     }
-
-    iter = realityAndDistanceMap->begin();
-    for(int i=0;i<k;i++ ,iter++){  //Ç°k¸öÔªËØµÄÈ¨ÖØËã³öÀ´
-        (*weightMap)[iter->second] += 1 - (iter->first / sum) ; //¾àÀëÔ½½ü È¨ÖØÔ½¸ß
+    //10.5 ·Ö±ğ¼ÆËãÇ°k¸öµãµÄÈ¨Öµ ¸ù¾İÆäÕæÊµÖµ ¼Óµ½ËùÓĞ¿ÉÄÜµÄÖµÉÏ ±ÈÈçµÃ²¡È¨ÖØ5.4 ²»µÃ²¡È¨ÖØÎª 8.4 ËùÒÔ¿ÉÒÔÅĞ¶Ï´ó¸ÅÂÊÊÇ²»µÃ²¡
+    mapIter = realityAndDistanceMap->begin();
+    for(int i=0;i<k;i++ ,mapIter++){  //Ç°k¸öÔªËØµÄÈ¨ÖØËã³öÀ´
+        (*weightMap)[mapIter->second] += 1 - (mapIter->first / sum) ; //¾àÀëÔ½½ü È¨ÖØÔ½¸ß  ×¢ÒâÕâÀïÊÇ 1- xxx
     }
-
-
-
+    //10.6 ÕÒµ½×î¸ßµÄÄÇ¸öÈ¨ÖØµÄÖµ ±ÈÈçÊÇ²»µÃ²¡ È»ºó½«Ëü¸³Öµ¸ømaxWeightStr
     for(pair<string,double> p :*weightMap ){
         if(p.second > maxWeight){
             maxWeight = p.second;
             maxWeightStr = p.first;
         }
     }
-
-//    if(resultVector->at(position) == realityAndDistanceMap->begin()->second){
-//        cout<<"Ô¤²âÕıÈ·"<<endl;
-//        return true;
-//    }
-    if(resultVector->at(position).compare(maxWeightStr)  == 0){
-//        cout<<"Ô¤²âÕıÈ·"<<endl;
-        return true;
-    }
-    else{
-//        cout<<"Ô¤²â´íÎó"<<endl;
-        return false;
-    }
+    //10.7 ¸ù¾İ²âÊÔ¼¯µÄÕæÊµÖµºÍÔ¤²âÖµ¶Ô±ÈÊÇ·ñÒ»Ñù  Èç¹ûÒ»ÑùËµÃ÷Ô¤²â³É¹¦
+    if(resultVector->at(position).compare(maxWeightStr)  == 0)
+        flag = true;  //flag ºó±ß»áreturn»ØÈ¥
+    else
+        flag = false;
+    //11 ×îÖÕÊÍ·ÅµôËùÓĞµÄÄÚ´æ(ÏÔ´æÒÑ¾­È«²¿ÊÍ·Å)
+    free(realityAndDistanceMap); //ÊÍ·ÅÕæÊµÖµºÍ¾àÀëmap
+    free(weightMap); //ÊÍ·ÅÈ¨ÖØmap
+    return flag; //·µ»ØÔ¤²â½á¹ûºÍÕæÊµÖµÊÇ·ñÆ¥Åä
 }
 
 
 int main() {
-    int k=10; //  ÓÃÀ´ÉèÖÃÈ¡Ç° k ¸ö¾àÀë×î½üµÄÊı¾İ
-    //µÚÒ»²½ ³õÊ¼»¯ËùÓĞ²ÎÊı
-    vector<vector<double>> *doubleDataArray = nullptr; //¶şÎ¬Êı×é ÓÃÀ´´æ·ÅÊı¾İ
-    vector<string> * headerNameVector = nullptr;
-    vector<string> * resultVector = nullptr;
-    set<string> * realitySet = nullptr;
+    //1. ³õÊ¼»¯ËùÓĞ²ÎÊı
+    vector<vector<double>> *doubleDataVector = nullptr; //¶şÎ¬Êı×é ÓÃÀ´´æ·ÅÑµÁ·¼¯ºÍ²âÊÔ¼¯µÄËùÓĞÊı¾İ
+    vector<string> * resultVector = nullptr;  //½á¹û¼¯ Àï±ßÈ«ÊÇ×Ö·û´®
+    set<string> * realitySet = nullptr;  //ÎŞÖØ¸´µÄËùÓĞ½á¹û¼¯
     ifstream inputFile;   //¶¨ÒåÎÄ¼şÊäÈëÁ÷
-    string fileName = "../diabetes.csv";  //¶¨ÒåÎÄ¼şÃû×Ö
+
+    //2.´¦Àíi/oÁ÷ ´ò¿ªÎÄ¼ş È»ºóµ÷ÓÃyhnCsvÀàÀ´¶ÁÈ¡csvÎÄ¼şµÄÊı¾İ
     inputFile.open(fileName);  //´ò¿ªÎÄ¼ş
     Csv * csvReader = new Csv(&inputFile);  //°ÑÎÄ¼ş¾ä±ú´«½øÈ¥
-    realitySet = csvReader->getResultSet();
-    headerNameVector =  csvReader->getHeaderNameVector(); //»ñÈ¡Í·Ãû×ÖÊı×é ²»°üÀ¨½á¹ûÁĞÃû×Ö
-    doubleDataArray = csvReader->getDoubleData(); //°ÑËùÓĞµÄÊı¾İÄÃµ½
-//    csvReader->printDoubleDataVector(); //´òÓ¡ËùÓĞÊı¾İ
-    resultVector = csvReader->getResultVector();
-    columnSize = doubleDataArray->at(0).size();  //Êı¾İÁĞµÄÊıÁ¿
-    dataSize = doubleDataArray->size();  //¼ÇÂ¼Êı¾İ¼¯µÄĞĞÊı
-    trainDataSize = trainDataProportion * dataSize;  //¼ÇÂ¼ÑµÁ·¼¯µÄĞĞÊı
+    //3. »ñÈ¡Êı¾İ
+    //3.1 Êı×é»òÕß¼¯ºÏµÄ»ñÈ¡
+    realitySet = csvReader->getResultSet();  //»ñÈ¡²»ÖØ¸´µÄÊı¾İ¼¯
+    resultVector = csvReader->getResultVector(); //ÄÃµ½ËùÓĞµÄ½á¹û
+    doubleDataVector = csvReader->getDoubleData(); //°ÑËùÓĞµÄÑµÁ·¼¯ºÍ²âÊÔ¼¯µÄÊı¾İÄÃµ½
+
+    //3.2 »ñÈ¡È«¾Ö±äÁ¿
+    columnSize = doubleDataVector->at(0).size();  //Êı¾İÁĞµÄÊıÁ¿
+    dataSize = doubleDataVector->size();  //¼ÇÂ¼×ÜÊı¾İ¼¯µÄĞĞÊı
+    trainDataSize = trainDataProportion * dataSize;  //¼ÇÂ¼ÑµÁ·¼¯µÄĞĞÊı  ±ÈÀı³ËÒÔ ×ÜÊı¾İ¼¯µÄĞĞÊı
     testDataSize = dataSize - trainDataSize; //¼ÇÂ¼²âÊÔ¼¯µÄĞĞÊı
-    //random_shuffle(doubleDataArray->begin(),doubleDataArray->end(),myRandom); // ½«Êı¾İ´òÂÒ×¢ÒâµÚÈı¸ö²ÎÊı myRandomÊÇÒ»¸öº¯ÊıµØÖ· ÊÇrandom_shuffleº¯Êı °ïÄãµ÷ÓÃ
-    //½øĞĞËæ»ú Èç¹ûËæ»úÊı²»ÏàÍ¬ ÄÇÃ´¾Í½»»» ·ñÔò ¾Í
-    srand((unsigned int)time(NULL));
-    for (int i = 0; i < dataSize; ++i) {
+    //4. Í¬Ê±¶ÔÈ«²¿Êı¾İ¼¯ºÍ½á¹ûÊı¾İ¼¯½øĞĞËæ»ú Èç¹ûËæ»úÊı²»ÏàÍ¬ ÄÇÃ´¾Í½»»»  ÕâÑùÄÜÍ¬Ê±½øĞĞ¶à¸öÊı×éµÄ½»»» swapº¯ÊıºÜºÃÊ¹
+    srand((unsigned int)time(NULL));  //ÒÔÊ±¼äÎª»ù×¼½øĞĞËæ»ú
+    for (int i = 0; i < dataSize; ++i) {  //×î¶à½»»» ×ÜÊı¾İ¼¯´óĞ¡ ÆäÊµÒ»°ã¾ÍĞĞ ²»¹ıÎŞËùÎ½ÁË
         int n1 = (rand() % dataSize);//²úÉúnÒÔÄÚµÄËæ»úÊı  nÊÇÊı×éÔªËØ¸öÊı
         int n2 = (rand() % dataSize);
         if (n1 != n2) { //ÈôÁ½Ëæ»úÊı²»ÏàµÈ ÔòÏÂ±êÎªÕâÁ½Ëæ»úÊıµÄÊı×é½øĞĞ½»»»
-            swap(doubleDataArray->at(n1),doubleDataArray->at(n2));
-
+            swap(doubleDataVector->at(n1),doubleDataVector->at(n2));
             swap(resultVector->at(n1),resultVector->at(n2));
         }
     }
-
-
-    int count = 0;
+    csvReader->printHeaderVector();  //´òÓ¡Í·µÄËùÓĞ×Ö·û´® ²»°üÀ¨½á¹ûÁĞµÄÃû×Ö
+    csvReader->printResultInformation(); //´òÓ¡resultĞÅÏ¢
+    cout<<"kÖµÎª£º"<<k<<",×ÜÊı¾İ¼¯ÓĞ"<<dataSize<<"Ìõ£¬"<<"ÑµÁ·¼¯ÓĞ"<<trainDataSize<<"Ìõ,"<<"²âÊÔ¼¯ÓĞ"<<testDataSize<<"Ìõ"<<endl;
+    int count = 0; //ÓÃÀ´Í³¼Æ³É¹¦Ô¤²âµÄÊıÁ¿
     for(int i=0;i<testDataSize;i++){
-        bool flag =  knn(&doubleDataArray->at(trainDataSize - 1 + i),trainDataSize +i -1 ,doubleDataArray,resultVector,k,realitySet);
+        bool flag =  knn(&doubleDataVector->at(trainDataSize + i), //²âÊÔ¼¯µÄÒ»ĞĞ
+                         trainDataSize +i  , //²âÊÔ¼¯µÄÎ»ÖÃ
+                         doubleDataVector, // ËùÓĞµÄÊı¾İ
+                         resultVector, //½á¹ûµÄÊı¾İ¼¯
+                         realitySet); //½á¹ûµÄËùÓĞ¿ÉÄÜÖµ µÄ set(²»ÖØ¸´)
+//        bool flag =  knn(&doubleDataVector->at(69), //²âÊÔ¼¯µÄÒ»ĞĞ
+//                         69 , //²âÊÔ¼¯µÄÎ»ÖÃ
+//                         doubleDataVector, // ËùÓĞµÄÊı¾İ
+//                         resultVector, //½á¹ûµÄÊı¾İ¼¯
+//                         realitySet); //½á¹ûµÄËùÓĞ¿ÉÄÜÖµ µÄ set(²»ÖØ¸´)
         if(flag){
             count++;
         }
     }
-    cout<<"×¼È·ÂÊÎª"<<(float )count/testDataSize *100 <<"%" ;
-//    csvReader->printHeaderVector();  //´òÓ¡Í·µÄËùÓĞ×Ö·û´® ²»°üÀ¨½á¹ûÁĞµÄÃû×Ö
-//    csvReader->printResultVector(); //´òÓ¡½á¹ûÁĞµÄÊı¾İ
-//    csvReader->printResultInformation();
-
-
-
-
+    cout<<"´Ë´ÎËæ»úµÄÊı¾İ¼¯µÄ×¼È·ÂÊÎª"<<(float )count/testDataSize *100 <<"%" ;
+    free(csvReader);
 }
