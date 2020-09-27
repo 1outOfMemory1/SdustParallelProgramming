@@ -150,19 +150,18 @@ bool knn(vector<double> * testPiece, int position ,vector<vector<double>> *doubl
 //        cout<<"预测正确"<<endl;
 //        return true;
 //    }
-    if(resultVector->at(position) == maxWeightStr){
-        cout<<"预测正确"<<endl;
+    if(resultVector->at(position).compare(maxWeightStr)  == 0){
+//        cout<<"预测正确"<<endl;
         return true;
     }
     else{
-        cout<<"预测错误"<<endl;
+//        cout<<"预测错误"<<endl;
         return false;
     }
 }
 
 
 int main() {
-    srand(time(0));   //随机数种子 根据时间生成随机数
     int k=10; //  用来设置取前 k 个距离最近的数据
     //第一步 初始化所有参数
     vector<vector<double>> *doubleDataArray = nullptr; //二维数组 用来存放数据
@@ -170,7 +169,7 @@ int main() {
     vector<string> * resultVector = nullptr;
     set<string> * realitySet = nullptr;
     ifstream inputFile;   //定义文件输入流
-    string fileName = "../glass.csv";  //定义文件名字
+    string fileName = "../diabetes.csv";  //定义文件名字
     inputFile.open(fileName);  //打开文件
     Csv * csvReader = new Csv(&inputFile);  //把文件句柄传进去
     realitySet = csvReader->getResultSet();
@@ -181,11 +180,24 @@ int main() {
     columnSize = doubleDataArray->at(0).size();  //数据列的数量
     dataSize = doubleDataArray->size();  //记录数据集的行数
     trainDataSize = trainDataProportion * dataSize;  //记录训练集的行数
-    testDataSize = (1-trainDataProportion) * dataSize; //记录测试集的行数
-//    random_shuffle(doubleDataArray->begin(),doubleDataArray->end(),myRandom); // 将数据打乱注意第三个参数 myRandom是一个函数地址 是random_shuffle函数 帮你调用
+    testDataSize = dataSize - trainDataSize; //记录测试集的行数
+    //random_shuffle(doubleDataArray->begin(),doubleDataArray->end(),myRandom); // 将数据打乱注意第三个参数 myRandom是一个函数地址 是random_shuffle函数 帮你调用
+    //进行随机 如果随机数不相同 那么就交换 否则 就
+    srand((unsigned int)time(NULL));
+    for (int i = 0; i < dataSize; ++i) {
+        int n1 = (rand() % dataSize);//产生n以内的随机数  n是数组元素个数
+        int n2 = (rand() % dataSize);
+        if (n1 != n2) { //若两随机数不相等 则下标为这两随机数的数组进行交换
+            swap(doubleDataArray->at(n1),doubleDataArray->at(n2));
+
+            swap(resultVector->at(n1),resultVector->at(n2));
+        }
+    }
+
+
     int count = 0;
     for(int i=0;i<testDataSize;i++){
-        bool flag =  knn(&doubleDataArray->at(trainDataSize +i),trainDataSize +i,doubleDataArray,resultVector,k,realitySet);
+        bool flag =  knn(&doubleDataArray->at(trainDataSize - 1 + i),trainDataSize +i -1 ,doubleDataArray,resultVector,k,realitySet);
         if(flag){
             count++;
         }
