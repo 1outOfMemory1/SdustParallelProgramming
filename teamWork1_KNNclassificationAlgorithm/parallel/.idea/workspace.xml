@@ -30,16 +30,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="951e8950-ea68-4099-917c-f30cc1431f03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/common.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/yhncsv.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj.cmake.pre-gen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj.depend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_copy.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yhncsv.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yhncsv.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
@@ -55,30 +45,7 @@
       <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/yhn.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/yhn.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/yhn.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/yhn.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/yhn.cu" beforeDir="false" afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/yhn.cu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.depend" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/vc140.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Hello.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Hello.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cu" beforeDir="false" afterPath="$PROJECT_DIR$/main.cu" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonSerial/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonSerial/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,11 +89,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -143,6 +105,7 @@
       <workItem from="1601024198790" duration="11528000" />
       <workItem from="1601046937216" duration="6586000" />
       <workItem from="1601081662635" duration="12803000" />
+      <workItem from="1601099951763" duration="1678000" />
     </task>
     <servers />
   </component>

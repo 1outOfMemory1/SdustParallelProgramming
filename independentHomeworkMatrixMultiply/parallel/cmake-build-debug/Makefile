@@ -115,30 +115,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named knn
+# Target rules for targets named yhn
 
 # Build rule for target.
-knn: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) knn
-.PHONY : knn
+yhn: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) yhn
+.PHONY : yhn
 
 # fast build rule for target.
-knn\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\knn.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\knn.dir\build
-.PHONY : knn\fast
-
-#=============================================================================
-# Target rules for targets named image
-
-# Build rule for target.
-image: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) image
-.PHONY : image
-
-# fast build rule for target.
-image\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\image.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\image.dir\build
-.PHONY : image\fast
+yhn\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\yhn.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\yhn.dir\build
+.PHONY : yhn\fast
 
 # Help Target
 help:
@@ -148,8 +135,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... image
-	@echo ... knn
+	@echo ... yhn
 .PHONY : help
 
 

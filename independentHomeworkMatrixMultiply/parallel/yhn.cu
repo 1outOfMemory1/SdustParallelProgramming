@@ -2,9 +2,9 @@
 #include <cstdlib>
 #include <cuda_runtime.h>
 #include <iostream>
-int arrayScale = 2; //设置矩阵规模 全局变量
+int arrayScale = 1024; //设置矩阵规模 全局变量
 int arrayScale_square = arrayScale * arrayScale;  //算出矩阵规模的平方 之后的程序会用到
-#define size 1  //这个值是更改一个块中有多少个线程的  我设置的是二维的thread排布 10 *10 为100 < 1024 因为老师给的数据都是10的倍数 所以设置10很合适
+#define size 32  //这个值是更改一个块中有多少个线程的  我设置的是二维的thread排布 10 *10 为100 < 1024 因为老师给的数据都是10的倍数 所以设置10很合适
 using namespace std;
 
 

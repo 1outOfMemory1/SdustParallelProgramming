@@ -17,8 +17,8 @@
 					<DistClean command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="knn">
-				<Option output="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/knn.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="yhn">
+				<Option output="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/yhn.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -34,14 +34,14 @@
 					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 knn"/>
+					<Build command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 yhn"/>
 					<CompileFile command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 					<DistClean command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="knn/fast">
-				<Option output="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/knn.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="yhn/fast">
+				<Option output="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/yhn.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -57,53 +57,7 @@
 					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 knn/fast"/>
-					<CompileFile command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="image">
-				<Option output="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/image.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/include"/>
-					<Add directory="D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
-					<Add directory="D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 image"/>
-					<CompileFile command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="image/fast">
-				<Option output="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/image.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/include"/>
-					<Add directory="D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
-					<Add directory="D:\EnglishSoftware\visualStudio2019\VC\Tools\MSVC\14.27.29110\include"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 image/fast"/>
+					<Build command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 yhn/fast"/>
 					<CompileFile command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 					<DistClean command="nmake /NOLOGO /f F:\project\github\unfinished\SdustParallelProgramming\independentHomeworkMatrixMultiply\parallel\cmake-build-debug\Makefile VERBOSE=1 clean"/>
@@ -130,17 +84,11 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/image.dir/image_generated_image.cu.obj">
-			<Option target="image"/>
+		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj">
+			<Option target="yhn"/>
 		</Unit>
-		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/knn.dir/knn_generated_knn.cu.obj">
-			<Option target="knn"/>
-		</Unit>
-		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/image.cu">
-			<Option target="image"/>
-		</Unit>
-		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/knn.cu">
-			<Option target="knn"/>
+		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/yhn.cu">
+			<Option target="yhn"/>
 		</Unit>
 		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/independentHomeworkMatrixMultiply/parallel/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

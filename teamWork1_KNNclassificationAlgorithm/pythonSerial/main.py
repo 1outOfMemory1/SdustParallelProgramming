@@ -5,7 +5,7 @@ import random
 
 headerArray = []  # 这个是第一行的除去第二个 headerArray = ["RI", "Na", "Mg", "Al", "Si", "K", "Ca", "Ba", "Fe"]
 headerArrayLen = len(headerArray)  # 获取headerArray 的 length
-string_of_reality = ""  # 这个是需要预测的列的名字 例如得不得病 可能有很多种类
+string_of_reality = ""  # 这个是需要预测的列的名字
 k = 14      # 用来设置取前 k 个距离最近的数据
 reality_set = set()  # 这个是用来存储结果可能的所有种类 比如预测是否得病只有 两种可能 得病和不得病
 
@@ -66,7 +66,7 @@ def knn(train_set_copy, test_set_piece_copy, string_of_reality_copy):
 
 #  主程序
 # 读取文件内容
-with open("KNN_Data.csv") as file:
+with open("glass.csv") as file:
     # straa = glassClassificationFile.readline()
     # str_array = straa.split(",")
     # print(str_array)

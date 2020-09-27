@@ -37,10 +37,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeSystem.cmake"
-  "CMakeFiles/image.dir/image_generated_image.cu.obj.cmake.pre-gen"
-  "CMakeFiles/image.dir/image_generated_image.cu.obj.depend"
-  "CMakeFiles/knn.dir/knn_generated_knn.cu.obj.cmake.pre-gen"
-  "CMakeFiles/knn.dir/knn_generated_knn.cu.obj.depend"
+  "CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj.cmake.pre-gen"
+  "CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj.depend"
   )
 
 # The corresponding makefile is:
@@ -51,15 +49,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/knn.dir/knn_generated_knn.cu.obj.cmake.pre-gen"
-  "CMakeFiles/image.dir/image_generated_image.cu.obj.cmake.pre-gen"
-  "CMakeFiles/knn.dir/knn_generated_knn.cu.obj.Debug.cmake"
-  "CMakeFiles/image.dir/image_generated_image.cu.obj.Debug.cmake"
+  "CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj.cmake.pre-gen"
+  "CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj.Debug.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/knn.dir/DependInfo.cmake"
-  "CMakeFiles/image.dir/DependInfo.cmake"
+  "CMakeFiles/yhn.dir/DependInfo.cmake"
   )
