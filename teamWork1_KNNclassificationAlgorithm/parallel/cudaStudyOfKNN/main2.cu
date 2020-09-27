@@ -2,8 +2,8 @@
 using namespace std;
 
 
-/*Õâ¸öº¯Êı¸úÉÏÁ½¸ö²»Ò»Ñù
-Õâ¸öÊÇÓÃÀ´¼ÆËãÒ»ĞĞµÄÀÛ¼ÓÖµ È»ºó½øĞĞ¿ª·½
+/*è¿™ä¸ªå‡½æ•°è·Ÿä¸Šä¸¤ä¸ªä¸ä¸€æ ·
+è¿™ä¸ªæ˜¯ç”¨æ¥è®¡ç®—ä¸€è¡Œçš„ç´¯åŠ å€¼ ç„¶åè¿›è¡Œå¼€æ–¹
  * */
 
 //__global__ void sub(double *aa,double *bb,double *result){
@@ -24,10 +24,10 @@ using namespace std;
 __global__ void sum(double *aa,double *distance){
     int x = blockIdx.x *blockDim.x + threadIdx.x;
     double value = 0;
-    for(int i=0;i<10;i++){  //ÀÛ¼ÓÒ»ÕûĞĞµÄÊı¾İ
+    for(int i=0;i<10;i++){  //ç´¯åŠ ä¸€æ•´è¡Œçš„æ•°æ®
         value += aa[x * 10 + i];
     }
-    distance[x] = sqrt(value); //½«sum½øĞĞ¿ª·½
+    distance[x] = sqrt(value); //å°†sumè¿›è¡Œå¼€æ–¹
 }
 
 int main() {
@@ -40,7 +40,7 @@ int main() {
 
     for(int j=20;j<30;j++){
         aa[j] = 2;
-    }//ÑéÖ¤³É¹¦
+    }//éªŒè¯æˆåŠŸ
     double *cudaAA;
     double *cudaDistance;
     cudaMalloc((void**)&cudaAA,sizeof(double) *600);
