@@ -5,10 +5,10 @@ using  namespace std;
 /**
  * @Author: yhn
  * @Date: 2020/9/16 15:03
- * @Description: ±¾.cppÎÄ¼şÓÃÓÚ´®ĞĞÖ´ĞĞ¾ØÕóÏà³ËµÄÈÎÎñ
+ * @Description: æœ¬.cppæ–‡ä»¶ç”¨äºä¸²è¡Œæ‰§è¡ŒçŸ©é˜µç›¸ä¹˜çš„ä»»åŠ¡
  **/
 void  SerialMatrixMultiply::myMalloc(long  ** & longArrayX){
-    //ÉêÇë¿Õ¼ä   size * size ¸ö¿Õ¼ä
+    //ç”³è¯·ç©ºé—´   size * size ä¸ªç©ºé—´
     longArrayX = new long*[size];
     for(long i= 0;i<size;i++){
         longArrayX[i] = new long[size];
@@ -37,7 +37,7 @@ void SerialMatrixMultiply::setZero(long ** & longArrayX) {
 
 
 SerialMatrixMultiply::SerialMatrixMultiply(long ssize):size(ssize){
-    //µÚÒ»²½³õÊ¼»¯Êı×é ¶¯Ì¬ÉêÇë´æ´¢¿Õ¼ä  ÆäÖĞA ºÍ B Êı×é³õÊ¼»¯Êı×Ö ÆäËû
+    //ç¬¬ä¸€æ­¥åˆå§‹åŒ–æ•°ç»„ åŠ¨æ€ç”³è¯·å­˜å‚¨ç©ºé—´  å…¶ä¸­A å’Œ B æ•°ç»„åˆå§‹åŒ–æ•°å­— å…¶ä»–
      setArray(longArrayA);
      setArray(longArrayB);
      setZero(longArrayC);

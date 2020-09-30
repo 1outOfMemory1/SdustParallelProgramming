@@ -1,16 +1,22 @@
 #include "SerialMatrixMultiply.h"
 #include <time.h>
 #include <iostream>
+int a = 500;
 
 using namespace std;
 int main(int argc,char * argv[]){
-    int a = atoi(argv[1]); //¶ÁÈ¡Ö´ĞĞÊ±²ÎÊı ²¢°ÑËü×ª»»ÎªintÖµ Õâ¸öÖµ´ú±í¾ØÕó´óĞ¡ size * size ´óĞ¡µÄÁ½¸ö¾ØÕóÏà³Ë
-    cout<<a<<endl;   // °Ñsize´òÓ¡³öÀ´
-    double seconds;  //¶¨ÒådoubleÀàĞÍµÄÃëÊı  ÓÃÓÚ´®ĞĞ¼ÇÂ¼Ö´ĞĞ¾ØÕóÏà³ËÇ°ºóµÄÊ±¼ä²î
-    SerialMatrixMultiply *m = new SerialMatrixMultiply(a);  //ĞÂ½¨Ò»¸öÀà ½«a Ò²¾ÍÊÇ¾ØÕóµÄ¹æÄ£Ìî½øÈ¥
-    clock_t begin_time = clock();   //¼ÇÂ¼¿ªÊ¼µÄÊ±¼ä
-    m->multiply();  //Ö´ĞĞ¾ØÕóµÄ³Ë·¨
-    clock_t end_time = clock();  //¼ÇÂ¼½áÊøµÄÊ±¼ä
-    seconds = ((double)end_time - begin_time) / CLOCKS_PER_SEC; //Õâ¸öCLOCKS_PER_SEC ÔÚ²»Í¬µÄ²Ù×÷ÏµÍ³µÄÖµ²»Ò»Ñù ×îÖÕËã³öÀ´µÄµ¥Î»ÊÇÃë
-    cout<<"cost time "<<seconds<<" seconds"<<endl; //½«×îÖÕµÄÏûºÄÊ±¼ä½øĞĞ´òÓ¡
+    if(argc >1){
+        int a = atoi(argv[1]); //è¯»å–æ‰§è¡Œæ—¶å‚æ•° å¹¶æŠŠå®ƒè½¬æ¢ä¸ºintå€¼ è¿™ä¸ªå€¼ä»£è¡¨çŸ©é˜µå¤§å° size * size å¤§å°çš„ä¸¤ä¸ªçŸ©é˜µç›¸ä¹˜
+        cout<<"å·²è¾“å…¥å‚æ•° çŸ©é˜µè§„æ¨¡ä¸º "<<a<<"*"<<a<<endl;   // æŠŠsizeæ‰“å°å‡ºæ¥
+    }else{
+        cout<<"æœªè¾“å…¥å‚æ•°!!!!!!,é»˜è®¤è§„æ¨¡æ˜¯ "<<a<<"*"<<a<<endl;
+    }
+
+    double seconds;  //å®šä¹‰doubleç±»å‹çš„ç§’æ•°  ç”¨äºä¸²è¡Œè®°å½•æ‰§è¡ŒçŸ©é˜µç›¸ä¹˜å‰åçš„æ—¶é—´å·®
+    SerialMatrixMultiply *m = new SerialMatrixMultiply(a);  //æ–°å»ºä¸€ä¸ªç±» å°†a ä¹Ÿå°±æ˜¯çŸ©é˜µçš„è§„æ¨¡å¡«è¿›å»
+    clock_t begin_time = clock();   //è®°å½•å¼€å§‹çš„æ—¶é—´
+    m->multiply();  //æ‰§è¡ŒçŸ©é˜µçš„ä¹˜æ³•
+    clock_t end_time = clock();  //è®°å½•ç»“æŸçš„æ—¶é—´
+    seconds = ((double)end_time - begin_time) / CLOCKS_PER_SEC; //è¿™ä¸ªCLOCKS_PER_SEC åœ¨ä¸åŒçš„æ“ä½œç³»ç»Ÿçš„å€¼ä¸ä¸€æ · æœ€ç»ˆç®—å‡ºæ¥çš„å•ä½æ˜¯ç§’
+    cout<<"cost time "<<seconds<<" seconds"<<endl; //å°†æœ€ç»ˆçš„æ¶ˆè€—æ—¶é—´è¿›è¡Œæ‰“å°
 }

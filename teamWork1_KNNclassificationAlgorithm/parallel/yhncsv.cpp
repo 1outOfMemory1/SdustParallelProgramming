@@ -1,5 +1,5 @@
 //
-// Created by å°¹æµ©ç”· on 2020/9/24.
+// Created by ÒüºÆÄĞ on 2020/9/24.
 //
 
 #include "yhncsv.h"
@@ -8,13 +8,13 @@
 
 
 void Csv::init() {
-    doubleDataArray = new vector<vector<double>>; //äºŒç»´æ•°ç»„ ç”¨æ¥å­˜æ”¾æ•°æ®
-    stringOfResult = "";  //è¿™ä¸ªæ˜¯éœ€è¦é¢„æµ‹çš„åˆ—çš„åå­—
-    realitySet = new set<string>; //# è¿™ä¸ªæ˜¯ç”¨æ¥å­˜å‚¨ç»“æœå¯èƒ½çš„æ‰€æœ‰ç§ç±» æ¯”å¦‚é¢„æµ‹æ˜¯å¦å¾—ç—…åªæœ‰ ä¸¤ç§å¯èƒ½ å¾—ç—…å’Œä¸å¾—ç—…
-    rowVector = new vector<string>;    //é‡Œè¾¹å­˜æ”¾äº†æ‰€æœ‰çš„å­—ç¬¦ä¸²æ•°æ® éœ€è¦è¿›è¡Œè½¬æ¢
-    stringResultVector = new vector<string>; // é‡Œè¾¹å­˜æ”¾äº†æœ€åä¸€è¡Œçš„resultæ•°æ®
+    doubleDataArray = new vector<vector<double>>; //¶şÎ¬Êı×é ÓÃÀ´´æ·ÅÊı¾İ
+    stringOfResult = "";  //Õâ¸öÊÇĞèÒªÔ¤²âµÄÁĞµÄÃû×Ö
+    realitySet = new set<string>; //# Õâ¸öÊÇÓÃÀ´´æ´¢½á¹û¿ÉÄÜµÄËùÓĞÖÖÀà ±ÈÈçÔ¤²âÊÇ·ñµÃ²¡Ö»ÓĞ Á½ÖÖ¿ÉÄÜ µÃ²¡ºÍ²»µÃ²¡
+    rowVector = new vector<string>;    //Àï±ß´æ·ÅÁËËùÓĞµÄ×Ö·û´®Êı¾İ ĞèÒª½øĞĞ×ª»»
+    stringResultVector = new vector<string>; // Àï±ß´æ·ÅÁË×îºóÒ»ĞĞµÄresultÊı¾İ
     if(!file->is_open()){
-        cout<<"æ‰“å¼€æ–‡ä»¶å¤±è´¥ open file failure"<<endl;
+        cout<<"´ò¿ªÎÄ¼şÊ§°Ü open file failure"<<endl;
         exit(-1);
     }
 }
@@ -28,21 +28,21 @@ vector<string> *Csv::getStringVector(string str, char symbol) {
             positionOfSymbolVector->push_back(i);
         }
     }
-    positionOfSymbolVectorSize = positionOfSymbolVector->size(); //è·å–vectorå¤§å°
-    //å…ˆå–å‡ºç¬¬ä¸€ä¸ª å­—ç¬¦ä¸²
+    positionOfSymbolVectorSize = positionOfSymbolVector->size(); //»ñÈ¡vector´óĞ¡
+    //ÏÈÈ¡³öµÚÒ»¸ö ×Ö·û´®
     string temp = str.substr(0,positionOfSymbolVector->at(0));
     stringVector->push_back(temp);
-    //å–å‡ºä¸­é—´çš„éƒ¨åˆ†
+    //È¡³öÖĞ¼äµÄ²¿·Ö
     for(int i=0;i<positionOfSymbolVectorSize -1;i++){
         temp = str.substr(positionOfSymbolVector->at(i)+1,positionOfSymbolVector->at(i+1) - positionOfSymbolVector->at(i) -1);
         stringVector->push_back(temp);
     }
-    //å–å‡ºæœ€åä¸€ä¸ªå­—ç¬¦ä¸²
+    //È¡³ö×îºóÒ»¸ö×Ö·û´®
     temp = str.substr(positionOfSymbolVector->at(positionOfSymbolVectorSize -1) + 1,
                       str.size()- positionOfSymbolVector->at(positionOfSymbolVectorSize -1));
     stringVector->push_back(temp);
 //    cout<<"size of stringVector:"<<stringVectorSize<<endl;
-    free(positionOfSymbolVector); //é‡Šæ”¾å†…å­˜é˜²æ­¢å†…å­˜æ³„æ¼
+    free(positionOfSymbolVector); //ÊÍ·ÅÄÚ´æ·ÀÖ¹ÄÚ´æĞ¹Â©
     return stringVector;
 }
 
@@ -56,30 +56,30 @@ vector<double> *Csv::stringVectorToDoubleVector(vector<string> *strVector) {
 
 
 Csv::Csv(ifstream *ffile) :file(ffile){
-    init();  //åˆå§‹åŒ–new ä¸€äº›å‚æ•°
+    init();  //³õÊ¼»¯new Ò»Ğ©²ÎÊı
     string row;
     while (getline(*file,row)){
         // cout<<row<<endl;
-        // æ‹¿åˆ°çš„æ•°æ®æ˜¯è¿™æ ·çš„ RI,Na,Mg,Al,Si,K,Ca,Ba,Fe,Type
+        // ÄÃµ½µÄÊı¾İÊÇÕâÑùµÄ RI,Na,Mg,Al,Si,K,Ca,Ba,Fe,Type
         //1.52101,13.64,4.49,1.1,71.78,0.06,8.75,0,0,1
-        rowVector->push_back(row);  //æŠŠæ¯ä¸€è¡Œå­—ç¬¦ä¸²å¡«å…¥vector
+        rowVector->push_back(row);  //°ÑÃ¿Ò»ĞĞ×Ö·û´®ÌîÈëvector
     }
-    //è·å–ç¬¬ä¸€è¡Œheaderçš„ä¿¡æ¯
+    //»ñÈ¡µÚÒ»ĞĞheaderµÄĞÅÏ¢
     header = getStringVector(rowVector->at(0),symbol);
-    stringOfResult = header->back();  //è·å– éœ€è¦é¢„æµ‹çš„åˆ—çš„åå­—
-    header->pop_back();  //å¼¹å‡ºæœ€åçš„å…ƒç´ 
-    // è·å–ä¹‹åçš„æ‰€æœ‰æ•°æ® å»é™¤äº†ç»“æœè¡Œ
+    stringOfResult = header->back();  //»ñÈ¡ ĞèÒªÔ¤²âµÄÁĞµÄÃû×Ö
+    header->pop_back();  //µ¯³ö×îºóµÄÔªËØ
+    // »ñÈ¡Ö®ºóµÄËùÓĞÊı¾İ È¥³ıÁË½á¹ûĞĞ
     for(int i=1;i<rowVector->size();i++){
-        vector<string> * tempStringVector = getStringVector(rowVector->at(i),symbol);  //å…ˆç»Ÿä¸€è½¬æ¢ä¸ºå­—ç¬¦ä¸²vector
+        vector<string> * tempStringVector = getStringVector(rowVector->at(i),symbol);  //ÏÈÍ³Ò»×ª»»Îª×Ö·û´®vector
         string temp = tempStringVector->back();
-        stringResultVector->push_back(temp);  //æŠŠæ‰€æœ‰çš„ç»“æœå­˜æˆä¸€ä¸ªvector ç”¨æ¥è®¡ç®—å‡†ç¡®ç‡çš„æ—¶å€™ç”¨
-        realitySet->insert(temp); //æŠŠæœ€åä¸€åˆ— éœ€è¦é¢„æµ‹çš„ç§ç±» å…¨éƒ¨å­˜å…¥ä¸å¯é‡å¤çš„setä¸­å»
-        tempStringVector->pop_back(); //å¼¹å‡ºæœ€åä¸€ä¸ªå…ƒç´ 
-        vector<double> * tempDoubleVector = stringVectorToDoubleVector(tempStringVector); //ç„¶åå†è¿›è¡Œä»å­—ç¬¦ä¸²vectorå‘doubleVectorçš„è½¬æ¢
-        doubleDataArray->push_back(*tempDoubleVector);   //å°†å¾—åˆ°çš„è½¬æ¢å®Œæˆçš„doubleVector å­˜å…¥äºŒç»´æ•°ç»„ä¸­
-        free(tempStringVector);  //é‡Šæ”¾åˆ°ä¸´æ—¶çš„stringVector
+        stringResultVector->push_back(temp);  //°ÑËùÓĞµÄ½á¹û´æ³ÉÒ»¸övector ÓÃÀ´¼ÆËã×¼È·ÂÊµÄÊ±ºòÓÃ
+        realitySet->insert(temp); //°Ñ×îºóÒ»ÁĞ ĞèÒªÔ¤²âµÄÖÖÀà È«²¿´æÈë²»¿ÉÖØ¸´µÄsetÖĞÈ¥
+        tempStringVector->pop_back(); //µ¯³ö×îºóÒ»¸öÔªËØ
+        vector<double> * tempDoubleVector = stringVectorToDoubleVector(tempStringVector); //È»ºóÔÙ½øĞĞ´Ó×Ö·û´®vectorÏòdoubleVectorµÄ×ª»»
+        doubleDataArray->push_back(*tempDoubleVector);   //½«µÃµ½µÄ×ª»»Íê³ÉµÄdoubleVector ´æÈë¶şÎ¬Êı×éÖĞ
+        free(tempStringVector);  //ÊÍ·Åµ½ÁÙÊ±µÄstringVector
     }
-    free(rowVector); //ç”¨å®ŒrowVectorå°±é‡Šæ”¾æ‰
+    free(rowVector); //ÓÃÍêrowVector¾ÍÊÍ·Åµô
 }
 
 vector<vector<double>> *Csv::getDoubleData() {
@@ -91,13 +91,13 @@ vector<string> *Csv::getResultVector() {
 }
 
 Csv::~Csv() {
-    free(stringResultVector); //é‡Šæ”¾æ‰
-    free(realitySet);  //é‡Šæ”¾set
-    while(doubleDataArray->empty()){  //ä»å°¾éƒ¨ä¾æ¬¡é‡Šæ”¾ç”³è¯·çš„ç©ºé—´
-        free(&doubleDataArray->back());  //é‡Šæ”¾æ‰ä¸€ç»´æ•°ç»„
-        doubleDataArray->pop_back(); // å°†å…ƒç´ å¼¹å‡º
+    free(stringResultVector); //ÊÍ·Åµô
+    free(realitySet);  //ÊÍ·Åset
+    while(doubleDataArray->empty()){  //´ÓÎ²²¿ÒÀ´ÎÊÍ·ÅÉêÇëµÄ¿Õ¼ä
+        free(&doubleDataArray->back());  //ÊÍ·ÅµôÒ»Î¬Êı×é
+        doubleDataArray->pop_back(); // ½«ÔªËØµ¯³ö
     }
-    free(doubleDataArray); //æœ€ç»ˆé‡Šæ”¾äºŒç»´æ•°ç»„
+    free(doubleDataArray); //×îÖÕÊÍ·Å¶şÎ¬Êı×é
 }
 
 vector<string> *Csv::getHeaderNameVector() {
@@ -110,7 +110,7 @@ set<string> *Csv::getResultSet() {
 
 
 void Csv::printHeaderVector() {
-    cout<<"åˆ¤æ–­ä¾æ®æœ‰ : ";
+    cout<<"ÅĞ¶ÏÒÀ¾İÓĞ : ";
     for(string temp : *header){
         cout<<temp<<" , ";
     }
@@ -127,8 +127,8 @@ void Csv::printDoubleDataVector() {
 }
 
 void Csv::printResultInformation() {
-    cout<<"ç»“æœæ‰€åœ¨çš„åˆ—åç§°æ˜¯ï¼š"<<stringOfResult<<" ";
-    cout<<"éœ€è¦é¢„æµ‹çš„å€¼çš„æ‰€æœ‰å¯èƒ½å‚æ•°(æ— é‡å¤)æœ‰ ";
+    cout<<"½á¹ûËùÔÚµÄÁĞÃû³ÆÊÇ£º"<<stringOfResult<<" ";
+    cout<<"ĞèÒªÔ¤²âµÄÖµµÄËùÓĞ¿ÉÄÜ²ÎÊı(ÎŞÖØ¸´)ÓĞ ";
     for(string str : *realitySet){
         cout<<str<<" ";
     }

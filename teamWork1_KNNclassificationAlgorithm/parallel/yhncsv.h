@@ -1,5 +1,5 @@
 //
-// Created by å°¹æµ©ç”· on 2020/9/24.
+// Created by ÒüºÆÄĞ on 2020/9/24.
 //
 #include <iostream>
 #include <fstream>
@@ -15,40 +15,40 @@ using namespace std;
 class Csv {
 private:
     ifstream *file;
-    string stringOfResult;  //è¿™ä¸ªæ˜¯éœ€è¦é¢„æµ‹çš„åˆ—çš„åå­—
-    set<string> *realitySet; //# è¿™ä¸ªæ˜¯ç”¨æ¥å­˜å‚¨ç»“æœå¯èƒ½çš„æ‰€æœ‰ç§ç±» æ¯”å¦‚é¢„æµ‹æ˜¯å¦å¾—ç—…åªæœ‰ ä¸¤ç§å¯èƒ½ å¾—ç—…å’Œä¸å¾—ç—…
-    const char symbol = ',';  //å®šä¹‰ç”¨ä»€ä¹ˆç¬¦å·åˆ†å‰² é»˜è®¤è¯»å–csvæ–‡ä»¶ ç”¨é€—å·åˆ†å‰²
-    vector<string> *rowVector;    //é‡Œè¾¹å­˜æ”¾äº†æ‰€æœ‰çš„å­—ç¬¦ä¸²æ•°æ® éœ€è¦è¿›è¡Œè½¬æ¢
-    vector<string> * header;  //å­˜æ”¾å¤´çš„ä¿¡æ¯ ä¸åŒ…æ‹¬é¢„æµ‹çš„åå­—
-    vector<vector<double>> *doubleDataArray; //äºŒç»´æ•°ç»„ ç”¨æ¥å­˜æ”¾æ•°æ®
-    vector<string> *stringResultVector;  //ç”¨äºå­˜å‚¨ç»“æœåˆ—ä¸­çš„æ‰€æœ‰æ•°æ®
-    void init();  // åˆå§‹åŒ– ç”¨æ¥åŠ¨æ€å¼€è¾Ÿç©ºé—´çš„å‡½æ•°
+    string stringOfResult;  //Õâ¸öÊÇĞèÒªÔ¤²âµÄÁĞµÄÃû×Ö
+    set<string> *realitySet; //# Õâ¸öÊÇÓÃÀ´´æ´¢½á¹û¿ÉÄÜµÄËùÓĞÖÖÀà ±ÈÈçÔ¤²âÊÇ·ñµÃ²¡Ö»ÓĞ Á½ÖÖ¿ÉÄÜ µÃ²¡ºÍ²»µÃ²¡
+    const char symbol = ',';  //¶¨ÒåÓÃÊ²Ã´·ûºÅ·Ö¸î Ä¬ÈÏ¶ÁÈ¡csvÎÄ¼ş ÓÃ¶ººÅ·Ö¸î
+    vector<string> *rowVector;    //Àï±ß´æ·ÅÁËËùÓĞµÄ×Ö·û´®Êı¾İ ĞèÒª½øĞĞ×ª»»
+    vector<string> * header;  //´æ·ÅÍ·µÄĞÅÏ¢ ²»°üÀ¨Ô¤²âµÄÃû×Ö
+    vector<vector<double>> *doubleDataArray; //¶şÎ¬Êı×é ÓÃÀ´´æ·ÅÊı¾İ
+    vector<string> *stringResultVector;  //ÓÃÓÚ´æ´¢½á¹ûÁĞÖĞµÄËùÓĞÊı¾İ
+    void init();  // ³õÊ¼»¯ ÓÃÀ´¶¯Ì¬¿ª±Ù¿Õ¼äµÄº¯Êı
     /**
-     * @brief ä¼ å…¥å­—ç¬¦ä¸²å’Œåˆ†éš”ç¬¦ è¿”å›ä¸€ä¸ªstringçš„vector  ç›¸å½“äºpythonæˆ–è€…javaçš„splitå‡½æ•°
-     * @param (string) str   è¦åˆ†å‰²çš„å­—ç¬¦ä¸²
-     * @param (char) symbol  åˆ†éš”ç¬¦
-     * @return (vector<string>*) è¿”å›ä¸€ä¸ªstringçš„vector
+     * @brief ´«Èë×Ö·û´®ºÍ·Ö¸ô·û ·µ»ØÒ»¸östringµÄvector  Ïàµ±ÓÚpython»òÕßjavaµÄsplitº¯Êı
+     * @param (string) str   Òª·Ö¸îµÄ×Ö·û´®
+     * @param (char) symbol  ·Ö¸ô·û
+     * @return (vector<string>*) ·µ»ØÒ»¸östringµÄvector
      */
     vector<string>* getStringVector(string str,char symbol);
 
 
     /**
-     * @brief å°†string
+     * @brief ½«string
      * @param strVector
      * @return
      */
     vector<double>* stringVectorToDoubleVector(vector<string> *strVector);
 public:
-    Csv(ifstream *file);  //æ„é€ å‡½æ•°
-    virtual ~Csv();  // ææ„å‡½æ•°  ç”¨æ¥freeä¸€äº›newçš„å†…å®¹
-    vector<vector<double>> *  getDoubleData();  //è·å–æ•°æ®çš„è€ŒäºŒç»´æ•°ç»„vector
+    Csv(ifstream *file);  //¹¹Ôìº¯Êı
+    virtual ~Csv();  // Îö¹¹º¯Êı  ÓÃÀ´freeÒ»Ğ©newµÄÄÚÈİ
+    vector<vector<double>> *  getDoubleData();  //»ñÈ¡Êı¾İµÄ¶ø¶şÎ¬Êı×évector
     vector<string> * getHeaderNameVector();
     vector<string> * getResultVector();
     set<string> * getResultSet();
-    void printHeaderVector();  //æ‰“å° Headeråˆ—çš„åå­— ä¸åŒ…æ‹¬ç»“æœåˆ—çš„åå­—
-    void printDoubleDataVector();  //æ‰“å°æ‰€æœ‰æ•°æ®
-    void printResultInformation(); //æ‰“å°æœ‰å…³ç»“æœåˆ—çš„ä¿¡æ¯ åŒ…æ‹¬ç»“æœåˆ—çš„åç§° å’Œ ç»“æœåˆ—ä¸­æ‰€æœ‰å¯èƒ½çš„å€¼(æ— é‡å¤)
-    void printResultVector();   //æ‰“å°ç»“æœåˆ—çš„æ‰€æœ‰æ•°æ®
+    void printHeaderVector();  //´òÓ¡ HeaderÁĞµÄÃû×Ö ²»°üÀ¨½á¹ûÁĞµÄÃû×Ö
+    void printDoubleDataVector();  //´òÓ¡ËùÓĞÊı¾İ
+    void printResultInformation(); //´òÓ¡ÓĞ¹Ø½á¹ûÁĞµÄĞÅÏ¢ °üÀ¨½á¹ûÁĞµÄÃû³Æ ºÍ ½á¹ûÁĞÖĞËùÓĞ¿ÉÄÜµÄÖµ(ÎŞÖØ¸´)
+    void printResultVector();   //´òÓ¡½á¹ûÁĞµÄËùÓĞÊı¾İ
 };
 
 
