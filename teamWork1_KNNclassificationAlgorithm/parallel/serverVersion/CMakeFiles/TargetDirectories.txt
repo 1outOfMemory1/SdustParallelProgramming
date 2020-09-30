@@ -1,0 +1,3 @@
+/home/workgroup26/yinhaonan/serial/CMakeFiles/rebuild_cache.dir
+/home/workgroup26/yinhaonan/serial/CMakeFiles/edit_cache.dir
+/home/workgroup26/yinhaonan/serial/CMakeFiles/aaa.dir

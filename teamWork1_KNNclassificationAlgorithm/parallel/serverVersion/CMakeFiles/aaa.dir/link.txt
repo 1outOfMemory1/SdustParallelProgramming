@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/aaa.dir/main.cpp.o CMakeFiles/aaa.dir/SerialMatrixMultiply.cpp.o  -o aaa 
