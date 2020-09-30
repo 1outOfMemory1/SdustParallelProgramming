@@ -30,8 +30,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="951e8950-ea68-4099-917c-f30cc1431f03" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parallel.rar" afterDir="false" />
+=======
+>>>>>>> b7bde6c91907a2b0992f15508513c50619850556
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
@@ -42,6 +45,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
@@ -52,6 +56,24 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/main.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/main.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main.pdb" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/embed.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/intermediate.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.Debug.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.Debug.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.cmake.pre-gen" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.cmake.pre-gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/manifest.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/manifest.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/yhncsv.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cudaStudyOfKNN/main.cu" beforeDir="false" afterPath="$PROJECT_DIR$/cudaStudyOfKNN/main.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cudaStudyOfKNN/main2.cu" beforeDir="false" afterPath="$PROJECT_DIR$/cudaStudyOfKNN/main2.cu" afterDir="false" />
+>>>>>>> b7bde6c91907a2b0992f15508513c50619850556
       <change beforePath="$PROJECT_DIR$/main.cu" beforeDir="false" afterPath="$PROJECT_DIR$/main.cu" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yhncsv.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/yhncsv.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yhncsv.h" beforeDir="false" afterPath="$PROJECT_DIR$/yhncsv.h" afterDir="false" />
@@ -92,16 +114,24 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+=======
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Hello" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Hello" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+>>>>>>> b7bde6c91907a2b0992f15508513c50619850556
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -127,9 +157,12 @@
       <workItem from="1601221196924" duration="18000" />
       <workItem from="1601221612267" duration="51000" />
       <workItem from="1601221672548" duration="628000" />
+<<<<<<< HEAD
       <workItem from="1601287415108" duration="1975000" />
       <workItem from="1601346412216" duration="1743000" />
       <workItem from="1601382875423" duration="933000" />
+=======
+>>>>>>> b7bde6c91907a2b0992f15508513c50619850556
     </task>
     <servers />
   </component>
@@ -163,7 +196,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601221170864" />
+<<<<<<< HEAD
     <state width="1493" height="163" key="GridCell.Tab.0.bottom" timestamp="1601352037610">
+=======
+    <state width="1493" height="245" key="GridCell.Tab.0.bottom" timestamp="1601210947057">
+>>>>>>> b7bde6c91907a2b0992f15508513c50619850556
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="163" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601352037610" />
@@ -194,6 +231,7 @@
     <state width="1493" height="245" key="GridCell.Tab.1.right" timestamp="1601291022531">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+<<<<<<< HEAD
     <state width="1493" height="245" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601291022531" />
     <state x="270" y="56" key="SettingsEditor" timestamp="1601287480100">
       <screen x="0" y="0" width="1536" height="824" />
@@ -203,6 +241,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601289983803" />
+=======
+    <state width="1493" height="245" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601210947057" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1601221720825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601221720825" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1601094844649">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601094844649" />
+>>>>>>> b7bde6c91907a2b0992f15508513c50619850556
     <state x="759" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601222084789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

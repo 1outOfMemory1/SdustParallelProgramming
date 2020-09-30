@@ -72,7 +72,7 @@ set(generated_file_internal "F:/project/github/unfinished/SdustParallelProgrammi
 set(generated_cubin_file_internal "F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/cmake-build-debug/CMakeFiles/main.dir//./main_generated_main.cu.obj.cubin.txt") # path
 
 set(CUDA_NVCC_EXECUTABLE "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/bin/nvcc.exe") # path
-set(CUDA_NVCC_FLAGS  ;; ) # list
+set(CUDA_NVCC_FLAGS -O3;-G;-g;-std=c++11 ;; ) # list
 # Build specific configuration flags
 set(CUDA_NVCC_FLAGS_DEBUG  ; )
 set(CUDA_NVCC_FLAGS_MINSIZEREL  ; )
