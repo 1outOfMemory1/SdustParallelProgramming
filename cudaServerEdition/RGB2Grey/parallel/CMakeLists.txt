@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 2.8)
+# 使用C++11
+SET(CMAKE_CXX_STANDARD 11)
+project(rgb2Grey_gpu)
+find_package(OpenCV REQUIRED)
+option(ENABLE_CUDA "" ON)
+find_package(CUDA REQUIRED)
+if(CUDA_FOUND)
+    include_directories(${CUDA_INCLUDE_DIRS})
+endif()
+CUDA_ADD_EXECUTABLE(rgb2Grey_gpu main.cu)
+# add_executable(rgb2Grey_gpu rgb2Grey_gpu.cu)
+target_link_libraries(rgb2Grey_gpu ${OpenCV_LIBS})
