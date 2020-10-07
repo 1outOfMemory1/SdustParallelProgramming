@@ -1,7 +1,0 @@
-cmake_minimum_required(VERSION 3.14)
-project(Hello)
-#set(CUDA_NVCC_FLAGS -O3; -G; -g;-std=c++11;)
-set(CMAKE_CXX_STANDARD 14)
-find_package(CUDA REQUIRED)
-file(GLOB CU main.cu)
-cuda_add_executable(main main.cu yhncsv.cpp yhncsv.h common.h)

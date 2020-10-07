@@ -1,4 +1,0 @@
-ToolSet: 16.0 (local)@D:\EnglishSoftware\visualStudio2019
-Options: msvc.arch=amd64
-
-Options:

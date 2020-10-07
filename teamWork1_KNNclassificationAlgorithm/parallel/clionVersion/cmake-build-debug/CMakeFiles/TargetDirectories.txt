@@ -1,3 +1,0 @@
-F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/edit_cache.dir
-F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/main.dir
-F:/project/github/unfinished/SdustParallelProgramming/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
