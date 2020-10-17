@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="aa"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="noparafor">
+				<Option output="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/noparafor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 noparafor"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="noparafor/fast">
+				<Option output="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/noparafor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 noparafor/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello">
+				<Option output="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/hello.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello/fast">
+				<Option output="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/hello.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parafor1">
+				<Option output="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/parafor1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 parafor1"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parafor1/fast">
+				<Option output="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/parafor1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 parafor1/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="private">
+				<Option output="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/private.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 private"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="private/fast">
+				<Option output="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/private.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 private/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parafor2">
+				<Option output="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/parafor2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 parafor2"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parafor2/fast">
+				<Option output="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/parafor2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 parafor2/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/hello.cpp">
+			<Option target="hello"/>
+		</Unit>
+		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/noparafor.cpp">
+			<Option target="noparafor"/>
+		</Unit>
+		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/parafor1.cpp">
+			<Option target="parafor1"/>
+		</Unit>
+		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/parafor2.cpp">
+			<Option target="parafor2"/>
+		</Unit>
+		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/private.cpp">
+			<Option target="private"/>
+		</Unit>
+		<Unit filename="F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

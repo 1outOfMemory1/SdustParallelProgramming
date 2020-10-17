@@ -1,0 +1,3 @@
+"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\basic.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\basic.dir/objects.a @CMakeFiles\basic.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\basic.dir/objects.a -Wl,--no-whole-archive  -o basic.exe -Wl,--out-implib,libbasic.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\basic.dir\linklibs.rsp

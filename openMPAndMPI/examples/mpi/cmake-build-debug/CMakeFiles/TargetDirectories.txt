@@ -1,0 +1,5 @@
+F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/mpi/cmake-build-debug/CMakeFiles/hybrid.dir
+F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/mpi/cmake-build-debug/CMakeFiles/hello.dir
+F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/mpi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/mpi/cmake-build-debug/CMakeFiles/basic.dir
+F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/mpi/cmake-build-debug/CMakeFiles/edit_cache.dir
