@@ -16,7 +16,9 @@ int testDataSize = 0; //用于记录测试集的大小
 int columnSize = 0;  //用于记录数据列的数量
 int threadSize = 2; //一个块中 线程数是32 * 32  =1024 最大值
 int k=14; //  用来设置取前 k 个距离最近的数据
-string fileName = "../KNN_Data.csv";  //定义文件名字
+double allKernelFunctionCostTime = 0;
+double allCostTime = 0;
+string fileName = "../wineQuality.csv";  //定义文件名字
 
 
 
@@ -85,7 +87,17 @@ bool knn(vector<double> * testPiece, int position ,vector<vector<double>> *doubl
     //3.2.2 执行cuda显存拷贝函数
     cudaMemcpy(cudaTestArrayPiece,doubleArrayB ,sizeof(double) * columnSize ,cudaMemcpyHostToDevice); //将test的数据传入
     //4. 执行第一个核函数
+    cudaEvent_t start1,stop1;
+    float elapsedTime1 = 0;
+    cudaEventCreate(&start1);
+    cudaEventCreate(&stop1);
+    cudaEventRecord(start1,0);
     MatrixSubAndSquare<<<firstBlocksPerGrid,firstThreadsPerBlock>>>(cudaDoubleArray,cudaTestArrayPiece,cudaAfterSubAndSquareDoubleArrayResult,columnSize);
+    cudaEventRecord(stop1,0);
+    cudaEventSynchronize(stop1);
+    cudaEventElapsedTime(&elapsedTime1,start1,stop1);
+//    cout<<"first kennel function cost time:"<<elapsedTime1<<endl;
+
     //将结果拷贝回来  这一步是中间步骤 调试的时候排错用
 //    cudaMemcpy(doubleArrayResult,cudaAfterSubAndSquareDoubleArrayResult,trainDataSize * columnSize *sizeof(double)  ,cudaMemcpyDeviceToHost); //将训练集的数据拷入到显存中)
 //    //打印计算的中间结果 中间步骤 调试使用
@@ -107,7 +119,19 @@ bool knn(vector<double> * testPiece, int position ,vector<vector<double>> *doubl
     double *cudaDistanceArray; //申请空间 映射显存空间 用来存放距离数组
     cudaMalloc((void**)&cudaDistanceArray,sizeof(double) * trainDataSize ); //申请存放距离显存空间
     //7 执行第二个核函数
+    cudaEvent_t start2,stop2;
+    float elapsedTime2 = 0;
+    cudaEventCreate(&start2);
+    cudaEventCreate(&stop2);
+    cudaEventRecord(start2,0);
     sumMatrix<<<secondBlocksPerGrid,secondThreadsPerBlock>>>(cudaAfterSubAndSquareDoubleArrayResult,cudaDistanceArray,columnSize);
+    cudaEventRecord(stop2,0);
+    cudaEventSynchronize(stop2);
+    cudaEventElapsedTime(&elapsedTime2,start2,stop2);
+//    cout<<"second kennel function cost time:"<<elapsedTime2<<endl;
+
+//    cout<<"two kennel function cost time:"<<elapsedTime1+elapsedTime2<<endl;
+    allKernelFunctionCostTime += elapsedTime1+elapsedTime2;
     //8 将最后的距离数组拷贝回内存 以便后边使用
     cudaMemcpy(distanceArray,cudaDistanceArray,sizeof(double) *trainDataSize ,cudaMemcpyDeviceToHost);
     //9 释放掉所有显存 因为以后用不到了
@@ -162,6 +186,7 @@ bool knn(vector<double> * testPiece, int position ,vector<vector<double>> *doubl
 
 
 int main(int argc,char * argv[]) {
+    clock_t allTimeBegin = clock();
     if(argc > 1){
         fileName = argv[1];
         cout<<"已输入参数， csv文件为 :   "<<argv[1]<<endl<<endl;
@@ -218,6 +243,11 @@ int main(int argc,char * argv[]) {
             count++;
         }
     }
-    cout<<"此次随机的数据集的准确率为"<<(float )count/testDataSize *100 <<"%"<<endl ;
+    clock_t allTimeEnd = clock();
+
+    cout<<"此次随机的数据集的准确率为: "<<(float )count/testDataSize *100 <<"%"<<endl ;
+    cout<<"all Kernel Function Cost Time: "<<allKernelFunctionCostTime<<" ms"<<endl;
+    cout<<"total Cost Time:"<<(allTimeEnd - allTimeBegin)/CLOCKS_PER_SEC <<" s"<<endl;
+
     free(csvReader);
 }

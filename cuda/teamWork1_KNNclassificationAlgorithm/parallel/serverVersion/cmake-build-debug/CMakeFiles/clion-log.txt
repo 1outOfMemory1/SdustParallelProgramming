@@ -1,0 +1,4 @@
+Cannot generate into F:\project\github\unfinished\SdustParallelProgramminge\cuda\teamWork1_KNNclassificationAlgorithm\parallel\serverVersion
+It is already used for project \mnt\f\project\github\unfinished\SdustParallelProgramming\teamWork1_KNNclassificationAlgorithm\parallel\serverVersion
+
+Please either delete it manually or select another generation directory
