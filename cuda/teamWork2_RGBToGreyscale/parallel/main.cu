@@ -10,7 +10,7 @@ using namespace std;
 
 // global variables
 int pictureHeight,pictureWidth; // define how many pixels of picture in the row and column
-string pictureUrl = "D:/in.jpg";
+string pictureUrl = "../in.jpg";
 int threadSize = 32;
 __global__ void numberMultiplyMatrix(unsigned char * uCharArrayB,  // Initial array
                                      unsigned char * uCharArrayG,  // Initial array

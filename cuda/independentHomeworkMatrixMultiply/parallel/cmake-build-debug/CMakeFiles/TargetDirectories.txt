@@ -1,4 +1,0 @@
-/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/cuda/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/cuda/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/cuda/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/knn.dir
-/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/cuda/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir

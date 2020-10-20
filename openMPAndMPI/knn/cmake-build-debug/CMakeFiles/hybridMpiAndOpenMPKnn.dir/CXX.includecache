@@ -1,0 +1,64 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/openMPAndMPI/knn/hybridMpiAndOpenMPKnn.cpp
+iostream
+-
+cmath
+-
+yhncsv.h
+/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/openMPAndMPI/knn/yhncsv.h
+vector
+-
+string
+-
+ctime
+-
+cstdlib
+-
+yhncsv.h
+/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/openMPAndMPI/knn/yhncsv.h
+map
+-
+omp.h
+-
+mpi.h
+-
+
+/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/openMPAndMPI/knn/yhncsv.cpp
+yhncsv.h
+/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/openMPAndMPI/knn/yhncsv.h
+
+/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/openMPAndMPI/knn/yhncsv.h
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+set
+-
+algorithm
+-
+
+/usr/local/yhnapp/mpi405/include/mpi.h
+stddef.h
+-
+mpi_portable_platform.h
+/usr/local/yhnapp/mpi405/include/mpi_portable_platform.h
+openmpi/ompi/mpi/cxx/mpicxx.h
+/usr/local/yhnapp/mpi405/include/openmpi/ompi/mpi/cxx/mpicxx.h
+
+/usr/local/yhnapp/mpi405/include/mpi_portable_platform.h
+omp.h
+/usr/local/yhnapp/mpi405/include/omp.h
+omp.h
+/usr/local/yhnapp/mpi405/include/omp.h
+

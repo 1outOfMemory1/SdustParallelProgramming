@@ -2,7 +2,7 @@
 #include "device_launch_parameters.h"
 
 #include <stdio.h>
-//Ó¢Î°´ïcudaÊ¾Àı³ÌĞò
+//è‹±ä¼Ÿè¾¾cudaç¤ºä¾‹ç¨‹åº
 cudaError_t addWithCuda(int *c, const int *a, const int *b, unsigned int size);
 
 __global__ void addKernel(int *c, const int *a, const int *b)
@@ -19,7 +19,7 @@ int main()
     int c[arraySize] = { 0 };
 
     // Add vectors in parallel.
-    //Ö´ĞĞaddº¯Êı ½øĞĞÏà¼Ó ÅĞ¶Ï·µ»ØÖµ Èç¹ûÓĞ´íÎóÊä³öº¯ÊıÖ´ĞĞÊ§°ÜµÄÌáÊ¾
+    //æ‰§è¡Œaddå‡½æ•° è¿›è¡Œç›¸åŠ  åˆ¤æ–­è¿”å›å€¼ å¦‚æœæœ‰é”™è¯¯è¾“å‡ºå‡½æ•°æ‰§è¡Œå¤±è´¥çš„æç¤º
     cudaError_t cudaStatus = addWithCuda(c, a, b, arraySize);
     if (cudaStatus != cudaSuccess) {
         fprintf(stderr, "addWithCuda failed!");
@@ -49,84 +49,84 @@ cudaError_t addWithCuda(int *c, const int *a, const int *b, unsigned int size)
     cudaError_t cudaStatus;
 
     // Choose which GPU to run on, change this on a multi-GPU system.
-    //Ñ¡ÔñÒ»¸öGPUÈ¥ÅÜ³ÌĞò Èç¹ûÄãÓĞ¶à¸öGPUµÄ»° ¿ÉÒÔ½øĞĞÇĞ»»
-    cudaStatus = cudaSetDevice(0);
+    //é€‰æ‹©ä¸€ä¸ªGPUå»è·‘ç¨‹åº å¦‚æœä½ æœ‰å¤šä¸ªGPUçš„è¯ å¯ä»¥è¿›è¡Œåˆ‡æ¢
+//    cudaStatus = cudaSetDevice(0);
     if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "GPUÑ¡ÔñÊ§°Ü Çë²é¿´Ñ¡ÔñµÄGPUÊÇ·ñÕıÈ· cudaSetDevice failed!  Do you have a CUDA-capable GPU installed? \n ");
+        fprintf(stderr, "GPUé€‰æ‹©å¤±è´¥ è¯·æŸ¥çœ‹é€‰æ‹©çš„GPUæ˜¯å¦æ­£ç¡® cudaSetDevice failed!  Do you have a CUDA-capable GPU installed? \n ");
         goto Error;
     }
 
     // Allocate GPU buffers for three vectors (two input, one output)
-    //ÒÔÏÂÈı¿é ÊÇÔÚGPUÖĞÉêÇëÏÔ´æ¿Õ¼ä ÉêÇëµÄ¿Õ¼äÊÇÒ»¸öÊı×éµÄ´óĞ¡
+    //ä»¥ä¸‹ä¸‰å— æ˜¯åœ¨GPUä¸­ç”³è¯·æ˜¾å­˜ç©ºé—´ ç”³è¯·çš„ç©ºé—´æ˜¯ä¸€ä¸ªæ•°ç»„çš„å¤§å°
     cudaStatus = cudaMalloc((void**)&dev_c, size * sizeof(int));
     if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "1 ÏÔ´æÉêÇëÊ§°Ü cudaMalloc failed!");
+        fprintf(stderr, "1 æ˜¾å­˜ç”³è¯·å¤±è´¥ cudaMalloc failed!");
         goto Error;
     }
 
     cudaStatus = cudaMalloc((void**)&dev_a, size * sizeof(int));
     if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "2 ÏÔ´æÉêÇëÊ§°Ü cudaMalloc failed!");
+        fprintf(stderr, "2 æ˜¾å­˜ç”³è¯·å¤±è´¥ cudaMalloc failed!");
         goto Error;
     }
 
     cudaStatus = cudaMalloc((void**)&dev_b, size * sizeof(int));
     if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "3 ÏÔ´æÉêÇëÊ§°Ü cudaMalloc failed!");
+        fprintf(stderr, "3 æ˜¾å­˜ç”³è¯·å¤±è´¥ cudaMalloc failed!");
         goto Error;
     }
 
     // Copy input vectors from host memory to GPU buffers.
-    //ÒÔÏÂÁ½¿éÊÇ ½«ÄÚ´æÖĞ´æ´¢µÄ aÊı×éºÍbÊı×éµÄÄÚÈİ¿½±´µ½GPUÏÔ´æÖĞÈ¥
+    //ä»¥ä¸‹ä¸¤å—æ˜¯ å°†å†…å­˜ä¸­å­˜å‚¨çš„ aæ•°ç»„å’Œbæ•°ç»„çš„å†…å®¹æ‹·è´åˆ°GPUæ˜¾å­˜ä¸­å»
     cudaStatus = cudaMemcpy(dev_a, a, size * sizeof(int), cudaMemcpyHostToDevice);
     if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "1 ½«Êı¾İ´ÓÄÚ´æ¸´ÖÆµ½ÏÔ´æÊ§°Ü cudaMemcpy failed!");
+        fprintf(stderr, "1 å°†æ•°æ®ä»å†…å­˜å¤åˆ¶åˆ°æ˜¾å­˜å¤±è´¥ cudaMemcpy failed!");
         goto Error;
     }
 
     cudaStatus = cudaMemcpy(dev_b, b, size * sizeof(int), cudaMemcpyHostToDevice);
     if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "2 ½«Êı¾İ´ÓÄÚ´æ¸´ÖÆµ½ÏÔ´æÊ§°Ü cudaMemcpy failed!");
+        fprintf(stderr, "2 å°†æ•°æ®ä»å†…å­˜å¤åˆ¶åˆ°æ˜¾å­˜å¤±è´¥ cudaMemcpy failed!");
         goto Error;
     }
 
 
 
     // Launch a kernel on the GPU with one thread for each element.
-    //ÒÔÏÂÊÇÕæÕıµÄ²¢ĞĞ³ÌĞòµÄÖ´ĞĞ´úÂë ÉêÇëÁËÒ»¸ö¿é Àï±ßÓĞ´«Èë²ÎÊısize¸öintµÄ¿Õ¼ä  ³ÌĞòµÄÖ÷ÒªÄÚÈİÊÇ a bÊı×éÏà¼ÓµÃµ½Êı×éc
+    //ä»¥ä¸‹æ˜¯çœŸæ­£çš„å¹¶è¡Œç¨‹åºçš„æ‰§è¡Œä»£ç  ç”³è¯·äº†ä¸€ä¸ªå— é‡Œè¾¹æœ‰ä¼ å…¥å‚æ•°sizeä¸ªintçš„ç©ºé—´  ç¨‹åºçš„ä¸»è¦å†…å®¹æ˜¯ a bæ•°ç»„ç›¸åŠ å¾—åˆ°æ•°ç»„c
     addKernel<<<1, size>>>(dev_c, dev_a, dev_b);
 
     // Check for any errors launching the kernel
-    //¼ì²éÔÚÆô¶¯ºËĞÄµÄÊ±ºòÊÇ·ñ´æÔÚ´íÎó Èç¹û´æÔÚ¾Í±¨´í
+    //æ£€æŸ¥åœ¨å¯åŠ¨æ ¸å¿ƒçš„æ—¶å€™æ˜¯å¦å­˜åœ¨é”™è¯¯ å¦‚æœå­˜åœ¨å°±æŠ¥é”™
     cudaStatus = cudaGetLastError();
     if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "Æô¶¯ºËĞÄÊ§°Ü addKernel launch failed: %s\n", cudaGetErrorString(cudaStatus));
+        fprintf(stderr, "å¯åŠ¨æ ¸å¿ƒå¤±è´¥ addKernel launch failed: %s\n", cudaGetErrorString(cudaStatus));
         goto Error;
     }
 
     // cudaDeviceSynchronize waits for the kernel to finish, and returns
     // any errors encountered during the launch.
-    // ÏÂ·½º¯ÊıµÈ´ı²¢ĞĞ³ÌĞòÖ´ĞĞÍê±Ï Èç¹ûÖ´ĞĞ³ö´íÎó ÄÇÃ´¾Í½áÊø³ÌĞò Êä³ö´íÎóĞÅÏ¢
+    // ä¸‹æ–¹å‡½æ•°ç­‰å¾…å¹¶è¡Œç¨‹åºæ‰§è¡Œå®Œæ¯• å¦‚æœæ‰§è¡Œå‡ºé”™è¯¯ é‚£ä¹ˆå°±ç»“æŸç¨‹åº è¾“å‡ºé”™è¯¯ä¿¡æ¯
     cudaStatus = cudaDeviceSynchronize();
     if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "GPUºËĞÄÔËËã³ö´í  cudaDeviceSynchronize returned error code %d after launching addKernel!\n", cudaStatus);
+        fprintf(stderr, "GPUæ ¸å¿ƒè¿ç®—å‡ºé”™  cudaDeviceSynchronize returned error code %d after launching addKernel!\n", cudaStatus);
         goto Error;
     }
 
     // Copy output vector from GPU buffer to host memory.
-    // ÕâÒ»²½½«ÒÑ¾­ÔÚGPUËãºÃµÄÄÚÈİ´æÈëÄÚ´æÖĞµÄ cÖĞÒÔ±ãÓÚ³ÌĞò¶ÁÈ¡
+    // è¿™ä¸€æ­¥å°†å·²ç»åœ¨GPUç®—å¥½çš„å†…å®¹å­˜å…¥å†…å­˜ä¸­çš„ cä¸­ä»¥ä¾¿äºç¨‹åºè¯»å–
     cudaStatus = cudaMemcpy(c, dev_c, size * sizeof(int), cudaMemcpyDeviceToHost);
     if (cudaStatus != cudaSuccess) {
-        fprintf(stderr, "½«GPUÏÔ´æÖĞµÄÊı¾İ´æÈëµ½ÄÚ´æÖĞÊ§°Ü cudaMemcpy failed!");
+        fprintf(stderr, "å°†GPUæ˜¾å­˜ä¸­çš„æ•°æ®å­˜å…¥åˆ°å†…å­˜ä¸­å¤±è´¥ cudaMemcpy failed!");
         goto Error;
     }
 
 
-    //³ÌĞòµÄ×îºó½øĞĞÄÚ´æµÄÊÍ·Å   Èç¹ûÉÏÊö¹ı³Ì³öÏÖ´íÎóÒ²»áÖ±½ÓÌø×ªµ½Õâ¸öµØ·½½øĞĞÏÔ´æµÄÊÍ·Å
+    //ç¨‹åºçš„æœ€åè¿›è¡Œå†…å­˜çš„é‡Šæ”¾   å¦‚æœä¸Šè¿°è¿‡ç¨‹å‡ºç°é”™è¯¯ä¹Ÿä¼šç›´æ¥è·³è½¬åˆ°è¿™ä¸ªåœ°æ–¹è¿›è¡Œæ˜¾å­˜çš„é‡Šæ”¾
     Error:
     cudaFree(dev_c);
     cudaFree(dev_a);
     cudaFree(dev_b);
 
-    return cudaStatus;  //·µ»Ø×îÖÕµÄcudaÖ´ĞĞÇé¿ö Èç¹ûÓĞ±¨´í ÄÇÃ´¿ÉÒÔ²éÕÒµ½±¨´í´úºÅ
+    return cudaStatus;  //è¿”å›æœ€ç»ˆçš„cudaæ‰§è¡Œæƒ…å†µ å¦‚æœæœ‰æŠ¥é”™ é‚£ä¹ˆå¯ä»¥æŸ¥æ‰¾åˆ°æŠ¥é”™ä»£å·
 }

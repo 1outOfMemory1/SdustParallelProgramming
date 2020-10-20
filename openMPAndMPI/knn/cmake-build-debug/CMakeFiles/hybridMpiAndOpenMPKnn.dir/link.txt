@@ -1,0 +1,1 @@
+mpicxx   -fopenmp -g   CMakeFiles/hybridMpiAndOpenMPKnn.dir/hybridMpiAndOpenMPKnn.cpp.o CMakeFiles/hybridMpiAndOpenMPKnn.dir/yhncsv.cpp.o  -o hybridMpiAndOpenMPKnn 

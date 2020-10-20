@@ -9,11 +9,11 @@ if(OPENMP_FOUND)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
 endif()
 
-#find_package(MPI REQUIRED)
-#include_directories(${MPI_INCLUDE_PATH})
-#
-#SET(CMAKE_CXX_COMPILER mpicxx)
-#SET(CMAKE_C_COMPILER  mpicc)
+find_package(MPI REQUIRED)
+include_directories(${MPI_INCLUDE_PATH})
+
+SET(CMAKE_CXX_COMPILER mpicxx)
+SET(CMAKE_C_COMPILER  mpicc)
 add_executable(mpiKnn mpiKnn.cpp yhncsv.h yhncsv.cpp)
 add_executable(openmpKnn openmpKnn.cpp yhncsv.h yhncsv.cpp)
 add_executable(hybridMpiAndOpenMPKnn hybridMpiAndOpenMPKnn.cpp yhncsv.h yhncsv.cpp)

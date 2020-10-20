@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/openMPAndMPI/knn/openmpKnn.cpp
+iostream
+-
+cmath
+-
+yhncsv.h
+/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/openMPAndMPI/knn/yhncsv.h
+vector
+-
+string
+-
+ctime
+-
+cstdlib
+-
+yhncsv.h
+/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/openMPAndMPI/knn/yhncsv.h
+map
+-
+omp.h
+-
+
+/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/openMPAndMPI/knn/yhncsv.h
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+set
+-
+algorithm
+-
+

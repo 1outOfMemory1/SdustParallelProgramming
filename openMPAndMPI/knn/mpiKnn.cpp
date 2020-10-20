@@ -18,7 +18,7 @@ int trainDataSize = 0; //用于记录训练集的大小
 int testDataSize = 0; //用于记录测试集的大小
 int columnSize = 0;  //用于记录数据列的数量
 int k=15; //  用来设置取前 k 个距离最近的数据
-string fileName = "../fashion-mnist_train.csv";  //定义文件名字
+string fileName = "../diabetes.csv";  //定义文件名字
 int threadNum = 56;
 
 //这个knn函数的一次运行 算出的是  一行测试数据 距离  所有训练集所有行的距离 然后根据最近的k个数据来预测值

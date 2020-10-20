@@ -5,7 +5,7 @@
 #include <cstdio>
 using namespace std;
 int threadNum = 6;
-int TestNum = 100000000;
+int TestNum = 1000000;
 
 int main(int argc,char * argv[]){
     if(argc >1){

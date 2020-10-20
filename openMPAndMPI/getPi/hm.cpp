@@ -45,7 +45,7 @@ int main(int argc,char** argv){
 	 
      if(my_rank==0){
          double pi=(double)all_circle/(double)n*4;
-		 printf("\n线程数：&d\n",NUM_THREADS);
+		 printf("\n线程数：%d\n",NUM_THREADS);
          printf("the estimate value of pi is %f\n",pi);
 		 printf("Cost time: %f s\n",endTime - startTime+end_time - begin_time);
      }	  
