@@ -1,0 +1,60 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/cuda/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f829/fast && /usr/bin/make  -f CMakeFiles/cmTC_5f829.dir/build.make CMakeFiles/cmTC_5f829.dir/build
+make[1]: 进入目录“/media/yhn/固态存储盘/project/github/unfinished/SdustParallelProgramminge/cuda/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5f829.dir/src.c.o
+/usr/bin/cc   -fPIC -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_5f829.dir/src.c.o -c "/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/cuda/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_5f829
+/usr/local/yhnapp/cmake318/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f829.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_5f829.dir/src.c.o -o cmTC_5f829 
+/usr/bin/ld: CMakeFiles/cmTC_5f829.dir/src.c.o: in function `main':
+src.c:(.text+0x2f): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x3b): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x47): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_5f829.dir/build.make:106：cmTC_5f829] 错误 1
+make[1]: 离开目录“/media/yhn/固态存储盘/project/github/unfinished/SdustParallelProgramminge/cuda/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeTmp”
+make: *** [Makefile:140：cmTC_5f829/fast] 错误 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/cuda/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a52fd/fast && /usr/bin/make  -f CMakeFiles/cmTC_a52fd.dir/build.make CMakeFiles/cmTC_a52fd.dir/build
+make[1]: 进入目录“/media/yhn/固态存储盘/project/github/unfinished/SdustParallelProgramminge/cuda/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a52fd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_a52fd.dir/CheckFunctionExists.c.o -c /usr/local/yhnapp/cmake318/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a52fd
+/usr/local/yhnapp/cmake318/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a52fd.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_a52fd.dir/CheckFunctionExists.c.o -o cmTC_a52fd  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_a52fd.dir/build.make:106：cmTC_a52fd] 错误 1
+make[1]: 离开目录“/media/yhn/固态存储盘/project/github/unfinished/SdustParallelProgramminge/cuda/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/CMakeTmp”
+make: *** [Makefile:140：cmTC_a52fd/fast] 错误 2
+
+
+

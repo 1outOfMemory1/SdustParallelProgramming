@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/yhn.dir/yhn_generated_yhn.cu.o -o yhn  /usr/local/cuda-11.1/lib64/libcudart_static.a -ldl /usr/lib/x86_64-linux-gnu/librt.so -lpthread 
