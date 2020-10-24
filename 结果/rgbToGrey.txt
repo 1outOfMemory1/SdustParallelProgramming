@@ -1,0 +1,24 @@
+本机串行
+5.97MB
+no input value found,default picture file path is ../in.jpg
+RGB to Grey cost time 34 ms $$$$$  0.034 seconds
+cost all time 609 ms $$$$$  0.609 seconds
+generate Grayscale image success,the output picture file name is out_in.jpg
+
+
+本机并行
+5.97MB
+no input value found,default picture file path is ../in.jpg
+cost time : 6.418944 ms $$$$ 0.006419 s
+generate Grayscale image success,the output picture file name is out_in.jpg
+cost total time 1.897 seconds
+
+
+服务器并行
+ ./rgb2Grey_gpu in.jpg 
+already input value,file name is in.jpg
+cost time : 29.228577 ms $$$$ 0.029229 s 
+generate Grayscale image success,the output picture file name is out_in.jpg
+cost total time 1.16 seconds
+
+

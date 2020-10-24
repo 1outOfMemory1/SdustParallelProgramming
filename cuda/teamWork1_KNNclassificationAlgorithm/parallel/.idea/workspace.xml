@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd68c4ae-7a0b-4089-b799-01e30b51318b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/yhn_generated_yhn.cu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../teamWork2_RGBToGreyscale/openclC++Serial/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../teamWork2_RGBToGreyscale/openclC++Serial/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../teamWork2_RGBToGreyscale/openclC++Serial/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../teamWork2_RGBToGreyscale/openclC++Serial/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../teamWork2_RGBToGreyscale/parallel/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../teamWork2_RGBToGreyscale/parallel/cmake-build-debug/CMakeFiles/test.dir/test_generated_main.cu.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../openMPAndMPI/matrixMultiply/aaa.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../independentHomeworkMatrixMultiply/CPU串行和GPU并行表示.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clionVersion/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clionVersion/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clionVersion/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clionVersion/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clionVersion/main.cu" beforeDir="false" afterPath="$PROJECT_DIR$/clionVersion/main.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonSerial/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonSerial/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonSerial/.idea/pythonSerial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonSerial/.idea/pythonSerial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonSerial/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonSerial/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonSerial/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonSerial/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../teamWork2_RGBToGreyscale/openclC++Serial/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../teamWork2_RGBToGreyscale/openclC++Serial/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../teamWork2_RGBToGreyscale/openclC++Serial/RGB2Grey.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../teamWork2_RGBToGreyscale/openclC++Serial/RGB2Grey.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../teamWork2_RGBToGreyscale/parallel/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../teamWork2_RGBToGreyscale/parallel/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../openMPAndMPI/getPi/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../openMPAndMPI/getPi/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../openMPAndMPI/getPi/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../openMPAndMPI/getPi/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../openMPAndMPI/getPi/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../openMPAndMPI/getPi/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../openMPAndMPI/getPi/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../openMPAndMPI/getPi/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../openMPAndMPI/getPi/openMPToGetPi2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../openMPAndMPI/getPi/openMPToGetPi2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../openMPAndMPI/matrixMultiply/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../openMPAndMPI/matrixMultiply/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../openMPAndMPI/matrixMultiply/CMakeLists.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1jEOasnMGf6UY2E80VM2XKW5qEc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/clionVersion" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd68c4ae-7a0b-4089-b799-01e30b51318b" name="Default Changelist" comment="" />
+      <created>1603365850933</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603365850933</updated>
+      <workItem from="1603365851970" duration="4000" />
+      <workItem from="1603377871941" duration="3000" />
+      <workItem from="1603441307974" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603441319635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603441319635" />
+  </component>
+</project>

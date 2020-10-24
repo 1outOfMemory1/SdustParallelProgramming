@@ -1,0 +1,108 @@
+total 1 processes
+threadNum = 2
+PI is 3.14159275358972234216
+Time cost :0.637769 s 
+total 2 processes
+threadNum = 2
+PI is 3.14159275358985734528
+Time cost :0.360998 s 
+total 3 processes
+threadNum = 2
+PI is 3.14159275358979339643
+Time cost :0.322941 s 
+total 4 processes
+threadNum = 2
+PI is 3.14159275358975031978
+Time cost :0.301959 s 
+total 5 processes
+threadNum = 2
+PI is 3.14159275358977918557
+Time cost :0.263975 s 
+total 6 processes
+threadNum = 2
+PI is 3.14159275358978407056
+Time cost :0.227989 s 
+total 7 processes
+threadNum = 2
+PI is 3.14159275358979606096
+Time cost :0.139005 s 
+total 8 processes
+threadNum = 2
+PI is 3.14159275358981293635
+Time cost :0.192933 s 
+total 9 processes
+threadNum = 2
+PI is 3.14159275358979517279
+Time cost :0.228958 s 
+total 10 processes
+threadNum = 2
+PI is 3.14159275358978851145
+Time cost :0.211805 s 
+total 11 processes
+threadNum = 2
+PI is 3.14159275358978273829
+Time cost :0.212893 s 
+total 12 processes
+threadNum = 2
+PI is 3.14159275358977696513
+Time cost :0.201216 s 
+total 13 processes
+threadNum = 2
+PI is 3.14159275358977740922
+Time cost :0.257637 s 
+total 14 processes
+threadNum = 2
+PI is 3.14159275358976852743
+Time cost :0.134533 s 
+total 15 processes
+threadNum = 2
+PI is 3.14159275358977341241
+Time cost :0.111247 s 
+total 16 processes
+threadNum = 2
+PI is 3.14159275358977030379
+Time cost :0.155557 s 
+total 17 processes
+threadNum = 2
+PI is 3.14159275358977740922
+Time cost :0.150068 s 
+total 18 processes
+threadNum = 2
+PI is 3.14159275358978051784
+Time cost :0.093155 s 
+total 19 processes
+threadNum = 2
+PI is 3.14159275358978185011
+Time cost :0.118052 s 
+total 20 processes
+threadNum = 2
+PI is 3.14159275358978318238
+Time cost :0.097613 s 
+total 21 processes
+threadNum = 2
+PI is 3.14159275358978673509
+Time cost :0.183106 s 
+total 22 processes
+threadNum = 2
+PI is 3.14159275358978717918
+Time cost :0.106080 s 
+total 23 processes
+threadNum = 2
+PI is 3.14159275358978318238
+Time cost :0.220085 s 
+total 24 processes
+threadNum = 2
+PI is 3.14159275358978762327
+Time cost :0.223404 s 
+total 25 processes
+threadNum = 2
+PI is 3.14159275358978895554
+Time cost :0.193529 s 
+total 26 processes
+threadNum = 2
+PI is 3.14159275358979117598
+Time cost :0.147394 s 
+total 27 processes
+threadNum = 2
+PI is 3.14159275358979783732
+Time cost :0.249987 s 

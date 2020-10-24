@@ -1,0 +1,168 @@
+total 1 processes
+PI is 3.14159275358998701932
+Time cost :1.503475 s 
+total 2 processes
+PI is 3.14159275358958200997
+Time cost :0.819622 s 
+total 3 processes
+PI is 3.14159275358949940937
+Time cost :0.565069 s 
+total 4 processes
+PI is 3.14159275358972012171
+Time cost :0.443561 s 
+total 5 processes
+PI is 3.14159275358975964565
+Time cost :0.425921 s 
+total 6 processes
+PI is 3.14159275358978984372
+Time cost :0.362036 s 
+total 7 processes
+PI is 3.14159275358979250825
+Time cost :0.296123 s 
+total 8 processes
+PI is 3.14159275358980760728
+Time cost :0.284136 s 
+total 9 processes
+PI is 3.14159275358978762327
+Time cost :0.250114 s 
+total 10 processes
+PI is 3.14159275358978318238
+Time cost :0.213565 s 
+total 11 processes
+PI is 3.14159275358979783732
+Time cost :0.256003 s 
+total 12 processes
+PI is 3.14159275358977874149
+Time cost :0.260086 s 
+total 13 processes
+PI is 3.14159275358978229420
+Time cost :0.230027 s 
+total 14 processes
+PI is 3.14159275358977030379
+Time cost :0.309130 s 
+total 15 processes
+PI is 3.14159275358977962966
+Time cost :0.244007 s 
+total 16 processes
+PI is 3.14159275358977474468
+Time cost :0.296536 s 
+total 17 processes
+PI is 3.14159275358978185011
+Time cost :0.236034 s 
+total 18 processes
+PI is 3.14159275358979073189
+Time cost :0.241125 s 
+total 19 processes
+PI is 3.14159275358979117598
+Time cost :0.298161 s 
+total 20 processes
+PI is 3.14159275358979872550
+Time cost :0.260212 s 
+total 21 processes
+PI is 3.14159275358979472870
+Time cost :0.137568 s 
+total 22 processes
+PI is 3.14159275358979339643
+Time cost :0.220590 s 
+total 23 processes
+PI is 3.14159275358978540282
+Time cost :0.240146 s 
+total 24 processes
+PI is 3.14159275358979295234
+Time cost :0.279181 s 
+total 25 processes
+PI is 3.14159275358979694914
+Time cost :0.157589 s 
+total 26 processes
+PI is 3.14159275358979872550
+Time cost :0.190080 s 
+total 27 processes
+PI is 3.14159275358980139004
+Time cost :0.170549 s 
+total 28 processes
+PI is 3.14159275358979694914
+Time cost :0.229036 s 
+total 29 processes
+PI is 3.14159275358979517279
+Time cost :0.292967 s 
+total 30 processes
+PI is 3.14159275358979428461
+Time cost :0.153030 s 
+total 31 processes
+PI is 3.14159275358979561688
+Time cost :0.185874 s 
+total 32 processes
+PI is 3.14159275358979694914
+Time cost :0.163551 s 
+total 33 processes
+PI is 3.14159275358979739323
+Time cost :0.225040 s 
+total 34 processes
+PI is 3.14159275358979694914
+Time cost :0.149049 s 
+total 35 processes
+PI is 3.14159275358979339643
+Time cost :0.193073 s 
+total 36 processes
+PI is 3.14159275358979384052
+Time cost :0.296560 s 
+total 37 processes
+PI is 3.14159275358979472870
+Time cost :0.286190 s 
+total 38 processes
+PI is 3.14159275358979339643
+Time cost :0.183673 s 
+total 39 processes
+PI is 3.14159275358979339643
+Time cost :0.287007 s 
+total 40 processes
+PI is 3.14159275358979162007
+Time cost :0.198277 s 
+total 41 processes
+PI is 3.14159275358979428461
+Time cost :0.272380 s 
+total 42 processes
+PI is 3.14159275358979783732
+Time cost :0.206669 s 
+total 43 processes
+PI is 3.14159275358979472870
+Time cost :0.190198 s 
+total 44 processes
+PI is 3.14159275358979428461
+Time cost :0.147588 s 
+total 45 processes
+PI is 3.14159275358979828141
+Time cost :0.191107 s 
+total 46 processes
+PI is 3.14159275358979961368
+Time cost :0.178199 s 
+total 47 processes
+PI is 3.14159275358979872550
+Time cost :0.235248 s 
+total 48 processes
+PI is 3.14159275358980050186
+Time cost :0.270190 s 
+total 49 processes
+PI is 3.14159275358979783732
+Time cost :0.265164 s 
+total 50 processes
+PI is 3.14159275358979872550
+Time cost :0.318846 s 
+total 51 processes
+PI is 3.14159275358980227821
+Time cost :0.292249 s 
+total 52 processes
+PI is 3.14159275358979961368
+Time cost :0.184254 s 
+total 53 processes
+PI is 3.14159275358979783732
+Time cost :0.303206 s 
+total 54 processes
+PI is 3.14159275358979783732
+Time cost :0.237267 s 
+total 55 processes
+PI is 3.14159275358979606096
+Time cost :0.254292 s 
+total 56 processes
+PI is 3.14159275358979872550
+Time cost :0.274240 s 

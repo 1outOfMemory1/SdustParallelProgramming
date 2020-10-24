@@ -18,7 +18,7 @@ int threadSize = 2; //一个块中 线程数是32 * 32  =1024 最大值
 int k=14; //  用来设置取前 k 个距离最近的数据
 double allKernelFunctionCostTime = 0;
 double allCostTime = 0;
-string fileName = "../wineQuality.csv";  //定义文件名字
+string fileName = "F://fashion-mnist_train.csv";  //定义文件名字
 
 
 
@@ -248,6 +248,5 @@ int main(int argc,char * argv[]) {
     cout<<"此次随机的数据集的准确率为: "<<(float )count/testDataSize *100 <<"%"<<endl ;
     cout<<"all Kernel Function Cost Time: "<<allKernelFunctionCostTime<<" ms"<<endl;
     cout<<"total Cost Time:"<<(allTimeEnd - allTimeBegin)/CLOCKS_PER_SEC <<" s"<<endl;
-
     free(csvReader);
 }

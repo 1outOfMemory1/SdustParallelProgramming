@@ -1,0 +1,280 @@
+total 1 processes
+all test cases is 100000000
+insideCount is 78540250
+pi is 3.141610
+Time cost :23.476375 s 
+total 2 processes
+all test cases is 100000000
+insideCount is 78540702
+pi is 3.141628
+Time cost :12.216158 s 
+total 3 processes
+all test cases is 100000000
+insideCount is 78532842
+pi is 3.141314
+Time cost :7.817237 s 
+total 4 processes
+all test cases is 100000000
+insideCount is 78534824
+pi is 3.141393
+Time cost :6.127217 s 
+total 5 processes
+all test cases is 100000000
+insideCount is 78545555
+pi is 3.141822
+Time cost :4.955192 s 
+total 6 processes
+all test cases is 100000000
+insideCount is 78561004
+pi is 3.142440
+Time cost :4.158250 s 
+total 7 processes
+all test cases is 100000000
+insideCount is 78524301
+pi is 3.140972
+Time cost :4.860300 s 
+total 8 processes
+all test cases is 100000000
+insideCount is 78546232
+pi is 3.141849
+Time cost :3.388199 s 
+total 9 processes
+all test cases is 100000000
+insideCount is 78546645
+pi is 3.141866
+Time cost :2.669234 s 
+total 10 processes
+all test cases is 100000000
+insideCount is 78539580
+pi is 3.141583
+Time cost :2.466267 s 
+total 11 processes
+all test cases is 100000000
+insideCount is 78519067
+pi is 3.140763
+Time cost :2.312931 s 
+total 12 processes
+all test cases is 100000000
+insideCount is 78547468
+pi is 3.141899
+Time cost :2.505346 s 
+total 13 processes
+all test cases is 100000000
+insideCount is 78578509
+pi is 3.143140
+Time cost :2.134500 s 
+total 14 processes
+all test cases is 100000000
+insideCount is 78539442
+pi is 3.141578
+Time cost :2.222953 s 
+total 15 processes
+all test cases is 100000000
+insideCount is 78536485
+pi is 3.141459
+Time cost :2.104426 s 
+total 16 processes
+all test cases is 100000000
+insideCount is 78540704
+pi is 3.141628
+Time cost :1.913380 s 
+total 17 processes
+all test cases is 100000000
+insideCount is 78547275
+pi is 3.141891
+Time cost :1.959689 s 
+total 18 processes
+all test cases is 100000000
+insideCount is 78548310
+pi is 3.141932
+Time cost :1.705368 s 
+total 19 processes
+all test cases is 100000000
+insideCount is 78511152
+pi is 3.140446
+Time cost :2.104321 s 
+total 20 processes
+all test cases is 100000000
+insideCount is 78553180
+pi is 3.142127
+Time cost :1.712146 s 
+total 21 processes
+all test cases is 100000000
+insideCount is 78527358
+pi is 3.141094
+Time cost :1.321707 s 
+total 22 processes
+all test cases is 100000000
+insideCount is 78540892
+pi is 3.141636
+Time cost :1.369803 s 
+total 23 processes
+all test cases is 100000000
+insideCount is 78522025
+pi is 3.140881
+Time cost :1.296166 s 
+total 24 processes
+all test cases is 100000000
+insideCount is 78525976
+pi is 3.141039
+Time cost :1.251134 s 
+total 25 processes
+all test cases is 100000000
+insideCount is 78543450
+pi is 3.141738
+Time cost :1.111120 s 
+total 26 processes
+all test cases is 100000000
+insideCount is 78520880
+pi is 3.140835
+Time cost :1.070619 s 
+total 27 processes
+all test cases is 100000000
+insideCount is 78508621
+pi is 3.140345
+Time cost :1.012594 s 
+total 28 processes
+all test cases is 100000000
+insideCount is 78506260
+pi is 3.140250
+Time cost :1.221415 s 
+total 29 processes
+all test cases is 100000000
+insideCount is 78533943
+pi is 3.141358
+Time cost :1.235401 s 
+total 30 processes
+all test cases is 100000000
+insideCount is 78561493
+pi is 3.142460
+Time cost :1.042674 s 
+total 31 processes
+all test cases is 100000000
+insideCount is 78503298
+pi is 3.140132
+Time cost :1.106796 s 
+total 32 processes
+all test cases is 100000000
+insideCount is 78528608
+pi is 3.141144
+Time cost :1.385140 s 
+total 33 processes
+all test cases is 100000000
+insideCount is 78553564
+pi is 3.142143
+Time cost :0.948211 s 
+total 34 processes
+all test cases is 100000000
+insideCount is 78558734
+pi is 3.142349
+Time cost :0.976440 s 
+total 35 processes
+all test cases is 100000000
+insideCount is 78526158
+pi is 3.141046
+Time cost :0.880578 s 
+total 36 processes
+all test cases is 100000000
+insideCount is 78539464
+pi is 3.141579
+Time cost :1.018832 s 
+total 37 processes
+all test cases is 100000000
+insideCount is 78568971
+pi is 3.142759
+Time cost :0.921407 s 
+total 38 processes
+all test cases is 100000000
+insideCount is 78527720
+pi is 3.141109
+Time cost :0.896046 s 
+total 39 processes
+all test cases is 100000000
+insideCount is 78617821
+pi is 3.144713
+Time cost :0.923415 s 
+total 40 processes
+all test cases is 100000000
+insideCount is 78544720
+pi is 3.141789
+Time cost :0.929094 s 
+total 41 processes
+all test cases is 100000000
+insideCount is 78586750
+pi is 3.143470
+Time cost :0.891701 s 
+total 42 processes
+all test cases is 100000000
+insideCount is 78531900
+pi is 3.141276
+Time cost :0.922477 s 
+total 43 processes
+all test cases is 100000000
+insideCount is 78488390
+pi is 3.139536
+Time cost :0.893835 s 
+total 44 processes
+all test cases is 100000000
+insideCount is 78567424
+pi is 3.142697
+Time cost :0.835423 s 
+total 45 processes
+all test cases is 100000000
+insideCount is 78571360
+pi is 3.142854
+Time cost :1.399847 s 
+total 46 processes
+all test cases is 100000000
+insideCount is 78530834
+pi is 3.141233
+Time cost :0.837432 s 
+total 47 processes
+all test cases is 100000000
+insideCount is 78537423
+pi is 3.141497
+Time cost :0.898591 s 
+total 48 processes
+all test cases is 100000000
+insideCount is 78577120
+pi is 3.143085
+Time cost :0.887997 s 
+total 49 processes
+all test cases is 100000000
+insideCount is 78588568
+pi is 3.143543
+Time cost :0.832828 s 
+total 50 processes
+all test cases is 100000000
+insideCount is 78539750
+pi is 3.141590
+Time cost :0.860426 s 
+total 51 processes
+all test cases is 100000000
+insideCount is 78583723
+pi is 3.143349
+Time cost :0.747451 s 
+total 52 processes
+all test cases is 100000000
+insideCount is 78520672
+pi is 3.140827
+Time cost :0.774008 s 
+total 53 processes
+all test cases is 100000000
+insideCount is 78546766
+pi is 3.141871
+Time cost :1.020443 s 
+total 54 processes
+all test cases is 100000000
+insideCount is 78559300
+pi is 3.142372
+Time cost :1.101619 s 
+total 55 processes
+all test cases is 100000000
+insideCount is 78526735
+pi is 3.141069
+Time cost :1.032511 s 
+total 56 processes
+all test cases is 100000000
+insideCount is 78532271
+pi is 3.141291
+Time cost :0.927608 s 

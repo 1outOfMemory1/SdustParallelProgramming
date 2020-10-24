@@ -1,1 +1,0 @@
-mpicxx   -fopenmp -g   CMakeFiles/openmpKnn.dir/openmpKnn.cpp.o CMakeFiles/openmpKnn.dir/yhncsv.cpp.o  -o openmpKnn 

@@ -1,7 +1,0 @@
-F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/CMakeFiles/noparafor.dir
-F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/CMakeFiles/hello.dir
-F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/CMakeFiles/parafor1.dir
-F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/CMakeFiles/private.dir
-F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/CMakeFiles/parafor2.dir
-F:/project/github/unfinished/SdustParallelProgramming/openMPAndMPI/examples/openmp/cmake-build-debug/CMakeFiles/edit_cache.dir

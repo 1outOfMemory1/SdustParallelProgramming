@@ -1,0 +1,130 @@
+10000 * 785 = 785,0000
+
+######本机  1060显卡  fashion-mnist_test.csv文件
+未输入参数！！！ 默认csv文件是:../fashion-mnist_test.csv
+结果所在的列名称是：label 需要预测的值的所有可能参数(无重复)有 0 1 2 3 4 5 6 7 8 9
+k值为：14,总数据集有10000条，训练集有6666条,测试集有3334条
+此次随机的数据集的准确率为: 81.5837%
+all Kernel Function Cost Time: 22402.6 ms
+total Cost Time:590 s
+
+######服务器  k80显卡  fashion-mnist_test.csv文件
+./main ../../../knnData/20MBfashion-mnist_test.csv 
+already input value， the csv file is:   ../../../knnData/20MBfashion-mnist_test.csv
+The k value is：14,the all dataSet has 10000 pieces of data，the train Set has 6666,the test set has 3334
+this time the accuracy of dataSet is 80.6839%
+all Kernel Function Cost Time: 153395 ms
+total Cost Time:330 s
+
+
+
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+4898 * 12 = 5,8776
+
+
+######本机  1060显卡  wineQuality.csv文件
+未输入参数！！！ 默认csv文件是:../wineQuality.csv
+判断依据有 : fixed acidity , volatile acidity , citric acid , residual sugar , chlorides , free sulfur dioxide , total s
+ulfur dioxide , density , pH , sulphates , alcohol ,
+结果所在的列名称是：quality 需要预测的值的所有可能参数(无重复)有 3 4 5 6 7 8 9
+k值为：14,总数据集有4898条，训练集有3265条,测试集有1633条
+此次随机的数据集的准确率为: 46.7851%
+all Kernel Function Cost Time: 97.5195 ms
+total Cost Time:16 s
+
+
+######服务器  k80显卡   wineQuality.csv
+./main wineQuality.csv 
+already input value， the csv file is:   wineQuality.csv
+The k value is：14,the all dataSet has 4898 pieces of data，the train Set has 3265,the test set has 1633
+this time the accuracy of dataSet is 45.2541%
+all Kernel Function Cost Time: 665.405 ms
+total Cost Time:4 s
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+569  * 32 = 1,8208
+
+######本机  1060显卡  KNNAlgorithmDataset.csv文件
+未输入参数！！！ 默认csv文件是:../KNNAlgorithmDataset.csv
+判断依据有 : id , radius_mean , texture_mean , perimeter_mean , area_mean , smoothness_mean , compactness_mean , concavi
+ty_mean , concave points_mean , symmetry_mean , fractal_dimension_mean , radius_se , texture_se , perimeter_se , area_se
+ , smoothness_se , compactness_se , concavity_se , concave points_se , symmetry_se , fractal_dimension_se , radius_worst
+ , texture_worst , perimeter_worst , area_worst , smoothness_worst , compactness_worst , concavity_worst , concave point
+s_worst , symmetry_worst , fractal_dimension_worst ,
+结果所在的列名称是：diagnosis 需要预测的值的所有可能参数(无重复)有 B M
+k值为：14,总数据集有569条，训练集有379条,测试集有190条
+此次随机的数据集的准确率为: 76.8421%
+all Kernel Function Cost Time: 4.53536 ms
+total Cost Time:0 s
+
+
+
+######服务器  k80显卡 KNNAlgorithmDataset.csv文件
+./main KNNAlgorithmDataset.csv
+already input value， the csv file is:   KNNAlgorithmDataset.csv
+The k value is：14,the all dataSet has 569 pieces of data，the train Set has 379,the test set has 190
+this time the accuracy of dataSet is 73.1579%
+all Kernel Function Cost Time: 28.175 ms
+total Cost Time:0 s
+
+
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+666 * 11 =7326
+######本机  1060显卡  KNN_Data.csv文件
+未输入参数！！！ 默认csv文件是:../KNN_Data.csv
+判断依据有 : XVPM , GWYH , TRAT , TLLZ , IGGA , HYKR , EDFS , GUUB , MGJM , JHZC ,
+结果所在的列名称是：TARGET CLASS 需要预测的值的所有可能参数(无重复)有 0 1
+k值为：14,总数据集有1000条，训练集有666条,测试集有334条
+此次随机的数据集的准确率为: 79.9401%
+all Kernel Function Cost Time: 6.72211 ms
+total Cost Time:1 s
+
+
+######服务器  k80显卡 KNN_Data.csv文件
+./main KNN_Data.csv 
+already input value， the csv file is:   KNN_Data.csv
+The k value is：14,the all dataSet has 1000 pieces of data，the train Set has 666,the test set has 334
+this time the accuracy of dataSet is 80.8383%
+all Kernel Function Cost Time: 35.8444 ms
+total Cost Time:0 s
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+
+768 * 9 = 6912
+
+
+
+######本机  1060显卡  diabetes.csv文件
+未输入参数！！！ 默认csv文件是:../diabetes.csv
+判断依据有 : Pregnancies , Glucose , BloodPressure , SkinThickness , Insulin , BMI , DiabetesPedigreeFunction , Age ,
+结果所在的列名称是：Outcome 需要预测的值的所有可能参数(无重复)有 0 1
+k值为：14,总数据集有768条，训练集有512条,测试集有256条
+此次随机的数据集的准确率为: 79.6875%
+all Kernel Function Cost Time: 4.03482 ms
+total Cost Time:0 s
+
+
+######服务器  k80显卡 diabetes.csv文件
+./main diabetes.csv 
+already input value， the csv file is:   diabetes.csv
+The k value is：14,the all dataSet has 768 pieces of data，the train Set has 512,the test set has 256
+this time the accuracy of dataSet is 71.875%
+all Kernel Function Cost Time: 21.0596 ms
+total Cost Time:0 s
+
+
+
+

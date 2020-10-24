@@ -1,0 +1,168 @@
+total 1 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78540052
+pi is 3.141602
+Time cost :25.768024 s 
+total 2 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78537430
+pi is 3.141497
+Time cost :14.610771 s 
+total 3 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78524665
+pi is 3.140987
+Time cost :11.040071 s 
+total 4 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78546868
+pi is 3.141875
+Time cost :8.273939 s 
+total 5 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78535952
+pi is 3.141438
+Time cost :5.638186 s 
+total 6 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78549848
+pi is 3.141994
+Time cost :4.654372 s 
+total 7 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78545688
+pi is 3.141828
+Time cost :4.336424 s 
+total 8 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78536355
+pi is 3.141454
+Time cost :4.117592 s 
+total 9 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78524304
+pi is 3.140972
+Time cost :3.615006 s 
+total 10 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78520655
+pi is 3.140826
+Time cost :3.388895 s 
+total 11 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78517265
+pi is 3.140691
+Time cost :2.808538 s 
+total 12 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78553119
+pi is 3.142125
+Time cost :2.790607 s 
+total 13 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78551902
+pi is 3.142076
+Time cost :2.232150 s 
+total 14 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78543856
+pi is 3.141754
+Time cost :2.291984 s 
+total 15 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78535708
+pi is 3.141428
+Time cost :2.308026 s 
+total 16 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78532750
+pi is 3.141310
+Time cost :2.221065 s 
+total 17 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78532076
+pi is 3.141283
+Time cost :1.885432 s 
+total 18 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78558873
+pi is 3.142355
+Time cost :1.712072 s 
+total 19 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78558687
+pi is 3.142347
+Time cost :1.790042 s 
+total 20 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78540019
+pi is 3.141601
+Time cost :1.579759 s 
+total 21 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78519889
+pi is 3.140796
+Time cost :1.551095 s 
+total 22 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78564119
+pi is 3.142565
+Time cost :1.406192 s 
+total 23 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78541446
+pi is 3.141658
+Time cost :1.338645 s 
+total 24 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78497377
+pi is 3.139895
+Time cost :1.346564 s 
+total 25 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78564033
+pi is 3.142561
+Time cost :1.256545 s 
+total 26 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78531507
+pi is 3.141260
+Time cost :1.261193 s 
+total 27 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78541188
+pi is 3.141648
+Time cost :1.199183 s 
+total 28 processes
+threadNum = 2
+all test cases is 100000000
+insideCount is 78546665
+pi is 3.141867
+Time cost :1.151832 s 

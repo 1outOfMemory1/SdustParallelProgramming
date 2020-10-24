@@ -1,3 +1,0 @@
-"D:\EnglishSoftware\clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\noparafor.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\noparafor.dir/objects.a @CMakeFiles\noparafor.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\noparafor.dir/objects.a -Wl,--no-whole-archive  -o noparafor.exe -Wl,--out-implib,libnoparafor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\noparafor.dir\linklibs.rsp

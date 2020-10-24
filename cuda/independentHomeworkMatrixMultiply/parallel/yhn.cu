@@ -2,9 +2,9 @@
 #include <cstdlib>
 #include <cuda_runtime.h>
 #include <iostream>
-int arrayScale = 4096; //设置矩阵规模 全局变量
+int arrayScale = 2000; //设置矩阵规模 全局变量
 int arrayScale_square = arrayScale * arrayScale;  //算出矩阵规模的平方 之后的程序会用到
-#define size 32  //这个值是更改一个块中有多少个线程的  我设置的是二维的thread排布 10 *10 为100 < 1024 因为老师给的数据都是10的倍数 所以设置10很合适
+#define size 2  //这个值是更改一个块中有多少个线程的  我设置的是二维的thread排布 10 *10 为100 < 1024 因为老师给的数据都是10的倍数 所以设置10很合适
 using namespace std;
 
 
@@ -37,27 +37,26 @@ int main(int argc,char * argv[])
         cout<<"未输入参数！！！ 默认矩阵规模为"<<arrayScale<<" * "<<arrayScale<<endl;
     }
 
-    int *intArrayA = new int[arrayScale_square];
-    int *intArrayB = new int[arrayScale_square];
-    int *intArrayResult = new int[arrayScale_square];
+    int *intArrayA = new int[arrayScale_square];   // A矩阵
+    int *intArrayB = new int[arrayScale_square];   // B矩阵
+    int *intArrayResult = new int[arrayScale_square];  // 结果矩阵
 
-    int *gpuMappingIntArrayA,*gpuMappingIntArrayB,*gpuMappingIntArrayResult;
+    int *gpuMappingIntArrayA,*gpuMappingIntArrayB,*gpuMappingIntArrayResult;  //显存映射矩阵
 
-    dim3 blocksPerGrid(arrayScale/size,arrayScale/size);
-    dim3 threadsPerBock(size,size);
-    cudaEvent_t start,stop;
+    dim3 blocksPerGrid(arrayScale/size,arrayScale/size);  // grid中block排布方式
+    dim3 threadsPerBock(size,size);  // block中thread的排布方式
+    cudaEvent_t start,stop;  // 记录cuda的运行时间
     float elapsedTime = 0;
     cudaEventCreate(&start);
     cudaEventCreate(&stop);
 
-    //设备端内存分配
-
+    //cuda中申请矩阵A B和结果矩阵的空间
     cudaMalloc((void**)&gpuMappingIntArrayA,arrayScale_square * sizeof(int));
     cudaMalloc((void**)&gpuMappingIntArrayB,arrayScale_square * sizeof(int));
     cudaMalloc((void**)&gpuMappingIntArrayResult,arrayScale_square * sizeof(int));
 
 
-    //初始化
+    //初始化 A B数组
     for(int i = 0;i < arrayScale;i++)
     {
         for(int j = 0;j < arrayScale;j++)
@@ -71,27 +70,29 @@ int main(int argc,char * argv[])
 //    intarrayb[3] = 1;
 
 
-    //数据拷贝，主机到设备
+    //数据拷贝，主机到设备  将内存中的 A B 数组数据拷贝到 显存中的A B数组中去
     cudaMemcpy(gpuMappingIntArrayA,intArrayA,arrayScale_square * sizeof(int),cudaMemcpyHostToDevice);
     cudaMemcpy(gpuMappingIntArrayB,intArrayB,arrayScale_square * sizeof(int),cudaMemcpyHostToDevice);
 
     cudaEventRecord(start,0);
+    // 执行核函数 计算结果数组的每一个值
     MatMul<<<blocksPerGrid,threadsPerBock>>>(gpuMappingIntArrayA,gpuMappingIntArrayB,gpuMappingIntArrayResult,arrayScale);//调用核函数
     cudaThreadSynchronize();
     cudaEventRecord(stop,0);
     cudaEventSynchronize(stop);
     cudaEventElapsedTime(&elapsedTime,start,stop);
+    // 将结果数组的每一个值拷贝回内存
     cudaMemcpy(intArrayResult,gpuMappingIntArrayResult,arrayScale_square * sizeof(int),cudaMemcpyDeviceToHost);
 
 
-
+    // 输出执行cuda执行时间
     printf("cost time : %f ms $$$$ %f s \n",elapsedTime,elapsedTime/1000);
-    for(int i=0;i<arrayScale;i++){
-        for(int j=0;j<arrayScale;j++){
-            printf("%d ",intArrayResult[i*arrayScale + j]);
-        }
-        printf("\n");
-    }
+//    for(int i=0;i<arrayScale;i++){
+//        for(int j=0;j<arrayScale;j++){
+//            printf("%d ",intArrayResult[i*arrayScale + j]);
+//        }
+//        printf("\n");
+//    }
 
 
     //释放设备内存

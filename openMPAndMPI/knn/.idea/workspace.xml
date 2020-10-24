@@ -14,161 +14,187 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f537bbb-9c2a-4af8-9727-c13f4deeeda0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/main.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.Debug.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.cmake.pre-gen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj.depend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/main.dir/objects1.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/Hello.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/serverVersion/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/serverVersion/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/serverVersion/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/serverVersion/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/serverVersion/.idea/serverVersion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/serverVersion/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../getPi/.idea/learnOpenmp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../getPi/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/knn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KNNAlgorithmDataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KNN_Data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cuda/independentHomeworkMatrixMultiply/parallel/cmake-build-debug/CMakeFiles/yhn.dir/yhn_generated_yhn.cu.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/.idea/teamWork1_KNNclassificationAlgorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/.idea/parallel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/cmake-build-debug/CMakeFiles/main.dir/main_generated_main.cu.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork2_RGBToGreyscale/openclC++Serial/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork2_RGBToGreyscale/openclC++Serial/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork2_RGBToGreyscale/openclC++Serial/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork2_RGBToGreyscale/openclC++Serial/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork2_RGBToGreyscale/parallel/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cuda/teamWork2_RGBToGreyscale/parallel/cmake-build-debug/CMakeFiles/test.dir/test_generated_main.cu.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/FindMPI/test_mpi_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/FindMPI/test_mpi_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/hm.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/hm.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/hm.dir/hm.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPToGetPi1.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPToGetPi1.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPToGetPi1.dir/hybridMpiAndOpenMPToGetPi1.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPToGetPi2.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPToGetPi2.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPToGetPi2.dir/hybridMpiAndOpenMPToGetPi2.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/mpiTest.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/mpiTest.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/mpiTest.dir/mpiTest.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/mpiToGetPi1.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/mpiToGetPi1.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/mpiToGetPi1.dir/mpiToGetPi1.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/mpiToGetPi2.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/mpiToGetPi2.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/mpiToGetPi2.dir/mpiToGetPi2.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/mpiToGetPiExample.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/mpiToGetPiExample.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/mpiToGetPiExample.dir/mpiToGetPiExample.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/openMPToGetPi1.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/openMPToGetPi1.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/openMPToGetPi1.dir/openMPToGetPi1.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/openMPToGetPi2.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/openMPToGetPi2.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/openMPToGetPi2.dir/openMPToGetPi2.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/mpiRun.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/mpiRun1.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/mpiRun2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/mpiRun2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/openmpRun.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getPi/speed.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/a.out" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e42a2.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e42a2.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e42a2.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e42a2.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e42a2.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e42a2.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e42a2.dir/linklibs.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e42a2.dir/objects1.rsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_e42a2.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeTmp/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/aa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/hybridMpiAndOpenMPKnn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cmake-build-debug/knn.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/learnOpenmp.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/mpiKnn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/openmpKnn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/openmpKnn.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/zhangxiaolong" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diabetes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-mnist_test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/glass.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hybridMpiAndOpenMPKnn.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wineQuality.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yhncsv.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yhncsv.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/.idea/matrixMultiply.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/FindMPI/test_mpi_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/FindMPI/test_mpi_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/hybridOpenmpAndMpiMatrixMultiply.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/hybridOpenmpAndMpiMatrixMultiply.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/hybridOpenmpAndMpiMatrixMultiply.dir/hybridOpenmpAndMpiMatrixMultiply.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/mpiMatrixMultiply.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/mpiMatrixMultiply.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/mpiMatrixMultiply.dir/mpiMatrixMultiply.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/CMakeFiles/openmpMatrixMultiply.dir/openmpMatrixMultiply.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/hybridOpenmpAndMpiMatrixMultiply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/mpiMatrixMultiply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/cmake-build-debug/openmpMatrixMultiply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/hybridOpenmpAndMpiMatrixMultiply.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/mpiMatrixMultiply.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../matrixMultiply/mpiMatrixMultiplyExample.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../matrixMultiply/aaa.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cuda/independentHomeworkMatrixMultiply/CPU串行和GPU并行表示.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cuda/independentHomeworkMatrixMultiply/parallel/yhn.cu" beforeDir="false" afterPath="$PROJECT_DIR$/../../cuda/independentHomeworkMatrixMultiply/parallel/yhn.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cuda/independentHomeworkMatrixMultiply/serial/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cuda/independentHomeworkMatrixMultiply/serial/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cuda/independentHomeworkMatrixMultiply/serial/SerialMatrixMultiply.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../cuda/independentHomeworkMatrixMultiply/serial/SerialMatrixMultiply.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/main.cu" beforeDir="false" afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/clionVersion/main.cu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/serverVersion/main.cu" beforeDir="false" afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/parallel/serverVersion/main.cu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/.idea/learnOpenmp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/.idea/other.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/hybridMpiAndOpenMPToGetPi1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/hybridMpiAndOpenMPToGetPi2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/mpiTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/mpiToGetPi1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/mpiToGetPi2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/mpiToGetPiExample.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/openMPToGetPi1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serverEditionLearnOpenmp/openMPToGetPi2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/pythonSerial/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/pythonSerial/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/pythonSerial/.idea/pythonSerial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/pythonSerial/.idea/pythonSerial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/pythonSerial/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/pythonSerial/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/pythonSerial/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../cuda/teamWork1_KNNclassificationAlgorithm/pythonSerial/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cuda/teamWork2_RGBToGreyscale/openclC++Serial/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cuda/teamWork2_RGBToGreyscale/openclC++Serial/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cuda/teamWork2_RGBToGreyscale/openclC++Serial/RGB2Grey.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../cuda/teamWork2_RGBToGreyscale/openclC++Serial/RGB2Grey.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cuda/teamWork2_RGBToGreyscale/parallel/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../cuda/teamWork2_RGBToGreyscale/parallel/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.18.4/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.18.4/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.18.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.18.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.18.4/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.18.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.18.4/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.18.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/3.18.4/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/hm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/hm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/hybridMpiAndOpenMPToGetPi1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/hybridMpiAndOpenMPToGetPi1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/hybridMpiAndOpenMPToGetPi2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/hybridMpiAndOpenMPToGetPi2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/mpiToGetPi1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/mpiToGetPi1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/mpiToGetPi2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/mpiToGetPi2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/openMPToGetPi1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/openMPToGetPi1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../getPi/openMPToGetPi2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/openMPToGetPi2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindMPI/test_mpi_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindMPI/test_mpi_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindMPI/test_mpi_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindMPI/test_mpi_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPKnn.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPKnn.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPKnn.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPKnn.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPKnn.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPKnn.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPKnn.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPKnn.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPKnn.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPKnn.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPKnn.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPKnn.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPKnn.dir/hybridMpiAndOpenMPKnn.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hybridMpiAndOpenMPKnn.dir/yhncsv.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mpiKnn.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mpiKnn.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mpiKnn.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mpiKnn.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mpiKnn.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mpiKnn.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mpiKnn.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mpiKnn.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mpiKnn.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mpiKnn.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mpiKnn.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mpiKnn.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mpiKnn.dir/mpiKnn.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mpiKnn.dir/yhncsv.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/openmpKnn.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/openmpKnn.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/yhncsv.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openmpKnn.dir/yhncsv.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/hybridMpiAndOpenMPKnn" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/hybridMpiAndOpenMPKnn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learnOpenmp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/learnOpenmp.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/mpiKnn" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mpiKnn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/openmpKnn" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/openmpKnn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hybridMpiAndOpenMPKnn.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hybridMpiAndOpenMPKnn.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpiKnn.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mpiKnn.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openmpKnn.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/openmpKnn.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../matrixMultiply/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../matrixMultiply/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../matrixMultiply/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../getPi/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../matrixMultiply/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../matrixMultiply/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../matrixMultiply/hybridOpenmpAndMpiMatrixMultiply.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../matrixMultiply/hybridOpenmpAndMpiMatrixMultiply.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../matrixMultiply/openmpMatrixMultiply.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../matrixMultiply/openmpMatrixMultiply.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,14 +224,25 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\project\github\unfinished\SdustParallelProgramminge\openMPAndMPI\knn" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.openmpKnn">
+  <component name="RunManager" selected="CMake Application.hybridMpiAndOpenMPKnn">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -224,11 +261,6 @@
     <configuration name="openmpKnn" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="learnOpenmp" TARGET_NAME="openmpKnn" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="learnOpenmp" RUN_TARGET_NAME="openmpKnn">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -256,6 +288,10 @@
       <workItem from="1603173557266" duration="61000" />
       <workItem from="1603174025890" duration="259000" />
       <workItem from="1603174849681" duration="45000" />
+      <workItem from="1603441436828" duration="609000" />
+      <workItem from="1603447848878" duration="1581000" />
+      <workItem from="1603456638967" duration="274000" />
+      <workItem from="1603524362110" duration="1620000" />
     </task>
     <servers />
   </component>
@@ -282,25 +318,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602917760181" />
-    <state width="1874" height="264" key="GridCell.Tab.0.bottom" timestamp="1603174284262">
-      <screen x="0" y="0" width="1920" height="1023" />
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1603527920523">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="765" height="293" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602944148039" />
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603527920523" />
     <state width="1874" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1023@0.0.1920.1023" timestamp="1603174284262" />
-    <state width="1874" height="264" key="GridCell.Tab.0.center" timestamp="1603174284262">
-      <screen x="0" y="0" width="1920" height="1023" />
+    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1603527920522">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="765" height="293" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602944148039" />
+    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603527920522" />
     <state width="1874" height="264" key="GridCell.Tab.0.center/0.0.1920.1023@0.0.1920.1023" timestamp="1603174284262" />
-    <state width="1874" height="264" key="GridCell.Tab.0.left" timestamp="1603174284261">
-      <screen x="0" y="0" width="1920" height="1023" />
+    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1603527920522">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="765" height="293" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602944148038" />
+    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603527920522" />
     <state width="1874" height="264" key="GridCell.Tab.0.left/0.0.1920.1023@0.0.1920.1023" timestamp="1603174284261" />
-    <state width="1874" height="264" key="GridCell.Tab.0.right" timestamp="1603174284262">
-      <screen x="0" y="0" width="1920" height="1023" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1603527920522">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="765" height="293" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602944148039" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603527920522" />
     <state width="1874" height="264" key="GridCell.Tab.0.right/0.0.1920.1023@0.0.1920.1023" timestamp="1603174284262" />
     <state width="707" height="330" key="GridCell.Tab.1.bottom" timestamp="1602919126627">
       <screen x="0" y="0" width="1536" height="824" />
@@ -318,10 +354,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="707" height="330" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602919126627" />
-    <state x="346" y="71" width="1229" height="742" key="SettingsEditor" timestamp="1603174892488">
-      <screen x="0" y="0" width="1920" height="1023" />
+    <state x="277" y="57" width="1229" height="742" key="SettingsEditor" timestamp="1603524625391">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602942160099" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603524625391" />
     <state x="346" y="71" width="1229" height="742" key="SettingsEditor/0.0.1920.1023@0.0.1920.1023" timestamp="1603174892488" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602916594413">
       <screen x="0" y="0" width="1536" height="824" />

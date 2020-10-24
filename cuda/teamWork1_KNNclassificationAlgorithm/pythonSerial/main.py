@@ -1,5 +1,6 @@
 import csv
 import random
+import time
 
 # 全局变量
 
@@ -66,7 +67,12 @@ def knn(train_set_copy, test_set_piece_copy, string_of_reality_copy):
 
 #  主程序
 # 读取文件内容
-with open("glass.csv") as file:
+
+starttime = time.time()
+fileName = "glass.csv"
+
+print("读取文件为: " + fileName)
+with open(fileName) as file:
     # straa = glassClassificationFile.readline()
     # str_array = straa.split(",")
     # print(str_array)
@@ -109,5 +115,7 @@ for i in range(0, len(test_set)):
 print("根据以下参数来预测结果(列的名称) ：", headerArray)
 print("结果所在的列名称是：" + string_of_reality, "   他的种类有：", sorted_reality_set)
 print("准确率为", cnt/test_set_len * 100)
+endtime = time.time()
+dtime = endtime - starttime
 
-
+print("程序运行时间：%.8s s" % dtime)  #显示到微秒

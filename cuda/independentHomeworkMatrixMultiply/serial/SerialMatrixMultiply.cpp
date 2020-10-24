@@ -34,8 +34,6 @@ void SerialMatrixMultiply::setZero(long ** & longArrayX) {
     }
 }
 
-
-
 SerialMatrixMultiply::SerialMatrixMultiply(long ssize):size(ssize){
     //第一步初始化数组 动态申请存储空间  其中A 和 B 数组初始化数字 其他
      setArray(longArrayA);
@@ -52,8 +50,6 @@ void SerialMatrixMultiply::multiply() {
         }
     }
 }
-
-
 
 void SerialMatrixMultiply::print(long ** longArrayX) {
     for(long i=0;i<size;i++){

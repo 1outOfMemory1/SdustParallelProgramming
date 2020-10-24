@@ -13,7 +13,7 @@ int main(int argc,char * argv[]){
     double seconds;
     double allSeconds;
     clock_t all_begin_time = clock();
-    string filePath = "in.jpg";
+    string filePath = "../in.jpg";
     string fileName = "";
     if(argc > 1){
         filePath = argv[1];

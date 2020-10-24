@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="learnOpenmp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="openMPToGetPi2">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/openMPToGetPi2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 openMPToGetPi2"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="openMPToGetPi2/fast">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/openMPToGetPi2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 openMPToGetPi2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpiToGetPiExample">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/mpiToGetPiExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 mpiToGetPiExample"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpiToGetPiExample/fast">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/mpiToGetPiExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 mpiToGetPiExample/fast"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="openMPToGetPi1">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/openMPToGetPi1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 openMPToGetPi1"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="openMPToGetPi1/fast">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/openMPToGetPi1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 openMPToGetPi1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpiToGetPi1">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/mpiToGetPi1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 mpiToGetPi1"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpiToGetPi1/fast">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/mpiToGetPi1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 mpiToGetPi1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpiToGetPi2">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/mpiToGetPi2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 mpiToGetPi2"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpiToGetPi2/fast">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/mpiToGetPi2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 mpiToGetPi2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hybridMpiAndOpenMPToGetPi1">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/hybridMpiAndOpenMPToGetPi1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 hybridMpiAndOpenMPToGetPi1"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hybridMpiAndOpenMPToGetPi1/fast">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/hybridMpiAndOpenMPToGetPi1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 hybridMpiAndOpenMPToGetPi1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hybridMpiAndOpenMPToGetPi2">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/hybridMpiAndOpenMPToGetPi2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 hybridMpiAndOpenMPToGetPi2"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hybridMpiAndOpenMPToGetPi2/fast">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/hybridMpiAndOpenMPToGetPi2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 hybridMpiAndOpenMPToGetPi2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpiTest">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/mpiTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 mpiTest"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpiTest/fast">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/mpiTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 mpiTest/fast"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hm">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/hm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 hm"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hm/fast">
+				<Option output="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/hm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 hm/fast"/>
+					<CompileFile command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j56 -f &quot;/home/workgroup26/yinhaonan/cpu/getPi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/workgroup26/yinhaonan/cpu/getPi/hm.cpp">
+			<Option target="hm"/>
+		</Unit>
+		<Unit filename="/home/workgroup26/yinhaonan/cpu/getPi/hybridMpiAndOpenMPToGetPi1.cpp">
+			<Option target="hybridMpiAndOpenMPToGetPi1"/>
+		</Unit>
+		<Unit filename="/home/workgroup26/yinhaonan/cpu/getPi/hybridMpiAndOpenMPToGetPi2.cpp">
+			<Option target="hybridMpiAndOpenMPToGetPi2"/>
+		</Unit>
+		<Unit filename="/home/workgroup26/yinhaonan/cpu/getPi/mpiTest.cpp">
+			<Option target="mpiTest"/>
+		</Unit>
+		<Unit filename="/home/workgroup26/yinhaonan/cpu/getPi/mpiToGetPi1.cpp">
+			<Option target="mpiToGetPi1"/>
+		</Unit>
+		<Unit filename="/home/workgroup26/yinhaonan/cpu/getPi/mpiToGetPi2.cpp">
+			<Option target="mpiToGetPi2"/>
+		</Unit>
+		<Unit filename="/home/workgroup26/yinhaonan/cpu/getPi/mpiToGetPiExample.cpp">
+			<Option target="mpiToGetPiExample"/>
+		</Unit>
+		<Unit filename="/home/workgroup26/yinhaonan/cpu/getPi/openMPToGetPi1.cpp">
+			<Option target="openMPToGetPi1"/>
+		</Unit>
+		<Unit filename="/home/workgroup26/yinhaonan/cpu/getPi/openMPToGetPi2.cpp">
+			<Option target="openMPToGetPi2"/>
+		</Unit>
+		<Unit filename="/home/workgroup26/yinhaonan/cpu/getPi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

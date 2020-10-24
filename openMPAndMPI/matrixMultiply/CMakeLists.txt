@@ -9,15 +9,16 @@ if(OPENMP_FOUND)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
 endif()
 
-find_package(MPI REQUIRED)
-include_directories(${MPI_INCLUDE_PATH})
-
-SET(CMAKE_CXX_COMPILER mpicxx)
-SET(CMAKE_C_COMPILER  mpicc)
+#find_package(MPI REQUIRED)
+#include_directories(${MPI_INCLUDE_PATH})
+#
+#SET(CMAKE_CXX_COMPILER mpicxx)
+#SET(CMAKE_C_COMPILER  mpicc)
 add_executable(openmpMatrixMultiply openmpMatrixMultiply.cpp)
 add_executable(mpiMatrixMultiply mpiMatrixMultiply.cpp)
 add_executable(hybridOpenmpAndMpiMatrixMultiply hybridOpenmpAndMpiMatrixMultiply.cpp)
 add_executable(mpiMatrixMultiplyExample mpiMatrixMultiplyExample.cpp)
 add_executable(mpiMatrixMultiplyAbc mpiMatrixMultiplyAbc.cpp)
 add_executable(test test.cpp)
+add_executable(aaa aaa.cpp)
 

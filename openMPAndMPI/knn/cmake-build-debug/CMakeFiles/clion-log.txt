@@ -1,5 +1,0 @@
-/usr/local/yhnapp/clion-2020.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/openMPAndMPI/knn"
-OPENMP FOUND
--- Configuring done
--- Generating done
--- Build files have been written to: /home/yhn/Desktop/github /unfinished/SdustParallelProgramminge/openMPAndMPI/knn/cmake-build-debug
